@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/04/28 15:41:16 by arommers      #+#    #+#                 */
-/*   Updated: 2023/04/28 16:06:29 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/01 10:56:56 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 #include <pthread.h>
 #include <time.h>
 
-void	*roll_dice()
+void	*roll_dice(void *arg)
 {
 	int	value;
 	int	*result;
