@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/04/26 13:28:30 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/01 13:21:11 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/01 13:35:52 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,18 +19,18 @@ int	primes[10] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29};
 
 void	*routine(void *arg)
 {
-    int k;
-    int index;
-    int sum;
+	int	k;
+	int	index;
+	int	sum;
 
 	index = *(int*)arg;
-    sum = 0;
-    k = 0;
-    while (k < 5)
-    {
-		sum	+= primes[index + k];
+	sum = 0;
+	k = 0;
+	while (k < 5)
+	{
+		sum += primes[index + k];
 		k++;
-    }
+	}
 	*(int *)arg = sum;
 	return (arg);
 }
