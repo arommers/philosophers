@@ -6,16 +6,11 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:30:45 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/05 11:02:22 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/05 11:41:56 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
-
-unsigned long	atolong(char *str)
-{
-
-}
 
 int	get_time(void)
 {

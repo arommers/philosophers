@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/05 11:03:54 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/05 11:13:39 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 # include <sys/time.h>  // for gettimeofday
 # include <pthread.h>   // for pthread & mutex
 # include <stdbool.h>	// for bool
+# include <limits.h>	// for atol
 
 typedef struct s_data {
 	int					nr_philos;

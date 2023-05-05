@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/04 11:18:22 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/05 11:11:18 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +27,12 @@ int	init_forks(t_data *data)
 
 int	init_data(int argc, char **argv, t_data *data)
 {
-	data->nr_philos = (int)atolong(argv[1]);
+	data->nr_philos = atolong(argv[1]);
 	data->time_to_die = atolong(argv[2]);
 	data->time_to_eat = atolong(argv[3]);
 	data->time_to_sleep = atolong(argv[4]);
 	if (argc == 6)
-		data->meal_nbr = (int)atolong(argv[5]);
+		data->meal_nbr = atolong(argv[5]);
 	else
 		data->meal_nbr = -1;
 	data->done = 0;
@@ -68,7 +68,10 @@ int	initialize(int argc, char **argv, t_data *data, t_philo	*philos)
 		error_msg("msg");
 		return (1);
 	}
-	init_data(argc, argv, data);
+	if (init_data(argc, argv, data) != 0)
+	{
+		// free data struct
+	}
 	philos = (t_philo *)malloc(sizeof(t_philo) * data->nr_philos);
 	if (!philos)
 	{
