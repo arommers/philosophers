@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/05 11:13:39 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/05 15:41:31 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,11 @@
 # include <pthread.h>   // for pthread & mutex
 # include <stdbool.h>	// for bool
 # include <limits.h>	// for atol
+
+typedef enum e_status {
+	ALIVE,
+	DEAD,
+}	t_status;
 
 typedef struct s_data {
 	int					nr_philos;
@@ -37,7 +42,7 @@ typedef struct s_data {
 typedef struct s_philo {
 	int					id;
 	int					meals_eaten;
-	int					last_meal;
+	unsigned long		last_meal;
 	pthread_mutex_t		*l_fork;
 	pthread_mutex_t		*r_fork;
 	pthread_mutex_t		*print;
