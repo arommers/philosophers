@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/05 15:41:31 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/25 11:25:00 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 
 # include <stdio.h>     // for printf
 # include <stdlib.h>    // for malloc, free, and exit
-# include <string.h>    // for memset
 # include <unistd.h>    // for usleep and write
 # include <sys/time.h>  // for gettimeofday
 # include <pthread.h>   // for pthread & mutex
@@ -53,5 +52,23 @@ typedef struct s_philo {
 // 	pthread_mutex_t mutex;
 //	bool			taken;
 // }	t_fork;
+
+//	Simulate functions
+
+void	*run_sim(void *arg);
+int		simulate(t_data *data, t_philo *philos);
+int		philo_threads(pthread_t *threads, t_data *data, t_philo *philos);
+
+//	Initialize functions
+
+int		init_forks(t_data *data);
+int		init_philos(t_data *data, t_philo *philos);
+int		init_data(int argc, char **argv, t_data *data);
+int		initialize(int argc, char **argv, t_data *data, t_philo	*philos);
+
+//	Utility functions
+
+unsigned long	get_time(void);
+unsigned long	ft_atolong(char *str);
 
 #endif

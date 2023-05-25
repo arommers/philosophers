@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/05 15:10:39 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/25 11:28:16 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ void	*run_sim(void *arg)
 	t_philo	*philos;
 
 	philos = (t_philo *)arg;
-	take_fork(philos);
-	eat();
-	drop_fork();
+	// take_fork(philos);
+	// eat();
+	// drop_fork();
 	return (NULL);
 }
 
@@ -64,13 +64,13 @@ int	simulate(t_data *data, t_philo *philos)
 		// free stuff
 		return (1);
 	}
-	if (monitor(data, philos) != 0)
-	{
-		// free stuff
-		// error message
-		return (1);
-	}
+	// if (monitor(data, philos) != 0)
+	// {
+	// 	// free stuff
+	// 	// error message
+	// 	return (1);
+	// }
 	free (threads);
-	check_sim_status(data, philos);
+	// check_sim_status(data, philos);
 	return (0);
 }

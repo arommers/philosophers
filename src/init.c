@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/05 15:49:20 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/25 11:27:04 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +27,12 @@ int	init_forks(t_data *data)
 
 int	init_data(int argc, char **argv, t_data *data)
 {
-	data->nr_philos = (int)atolong(argv[1]);
-	data->time_to_die = (int)atolong(argv[2]);
-	data->time_to_eat = (int)atolong(argv[3]);
-	data->time_to_sleep = (int)atolong(argv[4]);
+	data->nr_philos = (int)ft_atolong(argv[1]);
+	data->time_to_die = (int)ft_atolong(argv[2]);
+	data->time_to_eat = (int)ft_atolong(argv[3]);
+	data->time_to_sleep = (int)ft_atolong(argv[4]);
 	if (argc == 6)
-		data->meal_nbr = (int)atolong(argv[5]);
+		data->meal_nbr = (int)ft_atolong(argv[5]);
 	else
 		data->meal_nbr = -1;
 	data->done = 0;
@@ -58,14 +58,15 @@ int	init_philos(t_data *data, t_philo *philos)
 		philos[i].print = NULL;
 		philos[i].data = data;
 	}
+	return (0);
 }
 
 int	initialize(int argc, char **argv, t_data *data, t_philo	*philos)
 {
-	data = (t_data *)malloc(sizeof(t_data));
+	data = malloc(sizeof(t_data));
 	if (!data)
 	{
-		error_msg("msg");
+		// error_msg("msg");
 		return (1);
 	}
 	if (init_data(argc, argv, data) != 0) // you allocate here!!
@@ -76,7 +77,7 @@ int	initialize(int argc, char **argv, t_data *data, t_philo	*philos)
 	if (!philos)
 	{
 		// free data struct;
-		error_msg("msg");
+		// error_msg("msg");
 		return (1);
 	}
 	if (init_philos(data, philos) != 0)
