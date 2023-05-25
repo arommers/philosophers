@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:01:37 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/25 11:25:43 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/25 13:46:14 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	main(int argc, char **argv)
 	philos = NULL;
 	// if (input_check(argc, argv != 0))
 	// 	return (1);
-	if (initialize(argc, argv, data, philos) != 0)
+	if (initialize(argc, argv, &data, &philos) != 0)
 		return (1);
 	if (simulate(data, philos) != 0)
 		return (1);

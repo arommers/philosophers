@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/25 11:27:04 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/25 13:55:54 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,10 @@ int	init_data(int argc, char **argv, t_data *data)
 	data->who_died = 0;
 	if (init_forks(data) != 0)
 		return (1);
+	data->print = malloc(sizeof(pthread_mutex_t));
+	if (!data->print)
+		return (1);
+	pthread_mutex_init(data->print, NULL);
 	return (0);
 }
 
@@ -55,32 +59,32 @@ int	init_philos(t_data *data, t_philo *philos)
 		philos[i].last_meal = get_time();
 		philos[i].l_fork = &data->forks[i];
 		philos[i].r_fork = &data->forks[(i + 1) % data->nr_philos];
-		philos[i].print = NULL;
 		philos[i].data = data;
+		i++;
 	}
 	return (0);
 }
 
-int	initialize(int argc, char **argv, t_data *data, t_philo	*philos)
+int	initialize(int argc, char **argv, t_data **data, t_philo **philos)
 {
-	data = malloc(sizeof(t_data));
-	if (!data)
+	*data = malloc(sizeof(t_data));
+	if (!*data)
 	{
 		// error_msg("msg");
 		return (1);
 	}
-	if (init_data(argc, argv, data) != 0) // you allocate here!!
+	if (init_data(argc, argv, *data) != 0) // you allocate here!!
 	{
 		// free data struct
 	}
-	philos = (t_philo *)malloc(sizeof(t_philo) * data->nr_philos);
-	if (!philos)
+	*philos = malloc(sizeof(t_philo) * (*data)->nr_philos);
+	if (!*philos)
 	{
 		// free data struct;
 		// error_msg("msg");
 		return (1);
 	}
-	if (init_philos(data, philos) != 0)
+	if (init_philos(*data, *philos) != 0)
 	{
 		// free data struct;
 		return (1);

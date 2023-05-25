@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/25 11:28:16 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/25 14:03:12 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,12 @@
 
 void	*run_sim(void *arg)
 {
-	t_philo	*philos;
+	t_philo	*philo;
 
-	philos = (t_philo *)arg;
+	philo = (t_philo *)arg;
+	pthread_mutex_lock(philo->data->print);
+	printf("Hello, I am philo nr: %d\n", philo->id);
+	pthread_mutex_unlock(philo->data->print);
 	// take_fork(philos);
 	// eat();
 	// drop_fork();
@@ -28,15 +31,17 @@ int	philo_threads(pthread_t *threads, t_data *data, t_philo *philos)
 	int	i;
 
 	i = 0;
+	printf("%d	%p\n", data->nr_philos, threads);
 	while (i < data->nr_philos)
 	{
-		if (pthread_create(&threads[i], 0, &run_sim, (void *)&philos[i]) != 0)
+		if (pthread_create(&threads[i], 0, &run_sim, &philos[i]) != 0)
 		{
 			//error_message
 			return (1);
 		}
 		i++;
 	}
+	--i;
 	while (i >= 0)
 	{
 		if (pthread_join(threads[i], 0) != 0)
@@ -44,6 +49,7 @@ int	philo_threads(pthread_t *threads, t_data *data, t_philo *philos)
 			//error message
 			return(1);
 		}
+		i--;
 	}
 	return (0);
 }
@@ -52,7 +58,7 @@ int	simulate(t_data *data, t_philo *philos)
 {
 	pthread_t	*threads;
 
-	threads = malloc(data->nr_philos * sizeof(pthread_t));
+	threads = malloc((data->nr_philos + 1) * sizeof(pthread_t));
 	if (!threads)
 	{
 		// free stuff

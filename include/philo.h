@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/25 11:25:00 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/25 13:29:44 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,7 @@ typedef struct s_data {
 	int					time_to_eat;
 	int					time_to_sleep;
 	pthread_mutex_t		*forks;
+	pthread_mutex_t		*print;
 }	t_data;
 
 typedef struct s_philo {
@@ -44,7 +45,6 @@ typedef struct s_philo {
 	unsigned long		last_meal;
 	pthread_mutex_t		*l_fork;
 	pthread_mutex_t		*r_fork;
-	pthread_mutex_t		*print;
 	t_data				*data;
 }	t_philo;
 
@@ -64,7 +64,7 @@ int		philo_threads(pthread_t *threads, t_data *data, t_philo *philos);
 int		init_forks(t_data *data);
 int		init_philos(t_data *data, t_philo *philos);
 int		init_data(int argc, char **argv, t_data *data);
-int		initialize(int argc, char **argv, t_data *data, t_philo	*philos);
+int		initialize(int argc, char **argv, t_data **data, t_philo **philos);
 
 //	Utility functions
 
