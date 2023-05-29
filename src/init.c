@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/25 13:55:54 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/29 11:51:59 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ int	init_forks(t_data *data)
 
 int	init_data(int argc, char **argv, t_data *data)
 {
+	data->start = get_time();
 	data->nr_philos = (int)ft_atolong(argv[1]);
 	data->time_to_die = (int)ft_atolong(argv[2]);
 	data->time_to_eat = (int)ft_atolong(argv[3]);

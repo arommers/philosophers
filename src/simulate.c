@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/25 14:03:12 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/29 11:45:18 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,7 @@ void	*run_sim(void *arg)
 	t_philo	*philo;
 
 	philo = (t_philo *)arg;
-	pthread_mutex_lock(philo->data->print);
-	printf("Hello, I am philo nr: %d\n", philo->id);
-	pthread_mutex_unlock(philo->data->print);
+	print_msg(philo, "exists and is thinking");
 	// take_fork(philos);
 	// eat();
 	// drop_fork();
@@ -31,7 +29,6 @@ int	philo_threads(pthread_t *threads, t_data *data, t_philo *philos)
 	int	i;
 
 	i = 0;
-	printf("%d	%p\n", data->nr_philos, threads);
 	while (i < data->nr_philos)
 	{
 		if (pthread_create(&threads[i], 0, &run_sim, &philos[i]) != 0)

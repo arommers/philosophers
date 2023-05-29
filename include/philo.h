@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/25 13:29:44 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/29 11:41:13 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ typedef enum e_status {
 }	t_status;
 
 typedef struct s_data {
+	unsigned long		start;
 	int					nr_philos;
 	int					meal_nbr;
 	int					done;
@@ -70,5 +71,6 @@ int		initialize(int argc, char **argv, t_data **data, t_philo **philos);
 
 unsigned long	get_time(void);
 unsigned long	ft_atolong(char *str);
+void			print_msg(t_philo *philo, char *msg);
 
 #endif
