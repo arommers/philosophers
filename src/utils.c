@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:30:45 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/29 12:06:32 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/29 14:41:21 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,4 +50,21 @@ unsigned long	get_time(void)
 	gettimeofday(&tv, NULL);
 	time = (tv.tv_sec * 1000) + (tv.tv_usec / 1000);
 	return (time);
+}
+
+void	exact_sleep(unsigned long time)
+{
+	unsigned long	start;
+	unsigned long	end;
+	unsigned long	current;
+
+	start = get_time();
+	end = start + time;
+	while (1)
+	{
+		current = get_time();
+		if (current >= end)
+			break ;
+		usleep(time / 10);
+	}
 }

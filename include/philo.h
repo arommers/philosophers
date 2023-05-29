@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/29 11:41:13 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/29 14:47:26 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,21 +56,28 @@ typedef struct s_philo {
 
 //	Simulate functions
 
-void	*run_sim(void *arg);
-int		simulate(t_data *data, t_philo *philos);
-int		philo_threads(pthread_t *threads, t_data *data, t_philo *philos);
+void			*run_sim(void *arg);
+int				simulate(t_data *data, t_philo *philos);
+int				philo_threads(pthread_t *threads, t_data *data, t_philo *philos);
+
+//	routine
+
+void			take_forks(t_philo *philo);
+void			drop_forks(t_philo *philo);
+int				routine(t_philo *philo);
 
 //	Initialize functions
 
-int		init_forks(t_data *data);
-int		init_philos(t_data *data, t_philo *philos);
-int		init_data(int argc, char **argv, t_data *data);
-int		initialize(int argc, char **argv, t_data **data, t_philo **philos);
+int				init_forks(t_data *data);
+int				init_philos(t_data *data, t_philo *philos);
+int				init_data(int argc, char **argv, t_data *data);
+int				initialize(int argc, char **argv, t_data **data, t_philo **philos);
 
 //	Utility functions
 
 unsigned long	get_time(void);
 unsigned long	ft_atolong(char *str);
+void			exact_sleep(unsigned long time);
 void			print_msg(t_philo *philo, char *msg);
 
 #endif
