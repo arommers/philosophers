@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/29 13:16:59 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/29 15:12:56 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	*run_sim(void *arg)
 	return (0);
 }
 
-int	philo_threads(pthread_t *threads, t_data *data, t_philo *philos)
+int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 {
 	int	i;
 
@@ -64,7 +64,7 @@ int	simulate(t_data *data, t_philo *philos)
 		// error message
 		return (1);
 	}
-	if (philo_threads(threads, data, philos) != 0)
+	if (run_threads(threads, data, philos) != 0)
 	{
 		// free stuff
 		return (1);

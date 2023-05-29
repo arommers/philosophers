@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/29 11:51:59 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/29 15:11:24 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ int	init_philos(t_data *data, t_philo *philos)
 	return (0);
 }
 
-int	initialize(int argc, char **argv, t_data **data, t_philo **philos)
+int	init(int argc, char **argv, t_data **data, t_philo **philos)
 {
 	*data = malloc(sizeof(t_data));
 	if (!*data)

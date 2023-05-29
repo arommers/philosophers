@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/29 14:47:26 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/29 15:13:06 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ typedef struct s_philo {
 
 void			*run_sim(void *arg);
 int				simulate(t_data *data, t_philo *philos);
-int				philo_threads(pthread_t *threads, t_data *data, t_philo *philos);
+int				run_threads(pthread_t *threads, t_data *data, t_philo *philos);
 
 //	routine
 
@@ -71,7 +71,7 @@ int				routine(t_philo *philo);
 int				init_forks(t_data *data);
 int				init_philos(t_data *data, t_philo *philos);
 int				init_data(int argc, char **argv, t_data *data);
-int				initialize(int argc, char **argv, t_data **data, t_philo **philos);
+int				init(int argc, char **argv, t_data **data, t_philo **philos);
 
 //	Utility functions
 
