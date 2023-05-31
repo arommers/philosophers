@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/31 10:56:48 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/31 14:53:21 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,7 @@ unsigned long	ft_atolong(char *str);
 void			exact_sleep(unsigned long time);
 
 // Print functions
-void			print_msg(t_philo *philo, char *msg);
+void			print_msg(t_philo *philo, char *msg, int i);
 void			print_sleep(t_philo *philo);
 void			print_think(t_philo *philo);
 

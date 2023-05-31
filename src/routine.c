@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/29 12:47:33 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/31 11:34:22 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/31 12:31:51 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@ void	take_forks(t_philo *philo)
 {
 	pthread_mutex_lock(philo->l_fork);
 	pthread_mutex_lock(philo->r_fork);
-	print_msg(philo, "has taken a fork");
-	print_msg(philo, "has taken a fork");
-	print_msg(philo, "is eating");
+	print_msg(philo, "has taken a fork", 1);
+	print_msg(philo, "has taken a fork", 1);
+	print_msg(philo, "is eating", 0);
 	usleep(philo->data->time_to_die);
 }
 

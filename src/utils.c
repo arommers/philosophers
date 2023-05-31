@@ -6,12 +6,16 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:30:45 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/31 10:49:55 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/31 15:04:39 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
+void	someone_died()
+{
+	
+}
 unsigned long	ft_atolong(char *str)
 {
 	int				i;

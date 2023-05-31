@@ -6,11 +6,33 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/31 10:59:06 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/31 17:00:04 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
+
+// void	*god_sees_all(void *arg)
+// {
+// 	int				i;
+// 	t_philo			*philos;
+// 	unsigned long	meal;
+
+// 	i = 0;
+// 	philos = (t_philo *)arg;
+// 	while (1)
+// 	{
+// 		meal = philos[i].last_meal;
+// 		if (get_time() - meal >= philos[i].data->time_to_die)
+// 		{
+// 			print_msg(&philos[i], "has died", 2);
+// 			philos->data->status = DEAD;
+// 			break ;
+// 		}
+// 		i = (i + 1) % philos->data->nr_philos;
+// 	}
+// 	return ((void *) 0);
+// }
 
 void	*run_sim(void *arg)
 {
@@ -28,25 +50,23 @@ int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 {
 	int	i;
 
-	i = 0;
-	while (i < data->nr_philos)
+	i = -1;
+	while (++i < data->nr_philos)
 	{
 		if (pthread_create(&threads[i], 0, &run_sim, &philos[i]) != 0)
 		{
 			//error_message
 			return (1);
 		}
-		i++;
+		exact_sleep(1);
 	}
-	--i;
-	while (i >= 0)
+	while (--i >= 0)
 	{
 		if (pthread_join(threads[i], 0) != 0)
 		{
 			//error message
 			return(1);
 		}
-		i--;
 	}
 	return (0);
 }
@@ -58,7 +78,7 @@ int	simulate(t_data *data, t_philo *philos)
 	threads = malloc((data->nr_philos + 1) * sizeof(pthread_t));
 	if (!threads)
 	{
-		// free stuff
+
 		// error message
 		return (1);
 	}
@@ -67,12 +87,6 @@ int	simulate(t_data *data, t_philo *philos)
 		// free stuff
 		return (1);
 	}
-	// if (monitor(data, philos) != 0)
-	// {
-	// 	// free stuff
-	// 	// error message
-	// 	return (1);
-	// }
 	free (threads);
 	// check_sim_status(data, philos);
 	return (0);
