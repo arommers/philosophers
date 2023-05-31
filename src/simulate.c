@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/29 15:12:56 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/31 10:59:06 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,13 +17,11 @@ void	*run_sim(void *arg)
 	t_philo	*philo;
 
 	philo = (t_philo *)arg;
-	print_msg(philo, "exists and is thinking");
 	if (routine(philo) != 0)
 	{
 		// error_msg;
-		return (1);
 	}
-	return (0);
+	return ((void *) 0);
 }
 
 int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)

@@ -6,7 +6,7 @@
 #    By: arommers <arommers@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2023/05/25 11:09:04 by arommers      #+#    #+#                  #
-#    Updated: 2023/05/25 11:30:02 by arommers      ########   odam.nl          #
+#    Updated: 2023/05/31 11:00:46 by arommers      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,8 @@ NAME = philosophers
 
 INCLUDE = -I./include
 SRC =	./src/main.c ./src/init.c		\
-		./src/simulate.c ./utils.c		
+		./src/simulate.c ./utils.c		\
+		./src/routine.c ./src/print.c
 
 OBJ_DIR = obj
 OBJ = $(addprefix $(OBJ_DIR)/, $(notdir $(SRC:.c=.o)))
