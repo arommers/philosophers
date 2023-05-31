@@ -6,21 +6,11 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:30:45 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/29 14:41:21 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/31 10:49:55 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
-
-void	print_msg(t_philo *philo, char *msg)
-{
-	unsigned long	time;
-
-	time = get_time() - philo->data->start;
-	pthread_mutex_lock(philo->data->print);
-	printf("%lu %d %s\n", time, philo->id, msg);
-	pthread_mutex_unlock(philo->data->print);
-}
 
 unsigned long	ft_atolong(char *str)
 {

@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/29 15:13:06 by arommers      ########   odam.nl         */
+/*   Updated: 2023/05/31 10:49:40 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,7 @@
 # include <unistd.h>    // for usleep and write
 # include <sys/time.h>  // for gettimeofday
 # include <pthread.h>   // for pthread & mutex
-# include <stdbool.h>	// for bool
-# include <limits.h>	// for atol
+# include <limits.h>	// for atolong
 
 typedef enum e_status {
 	ALIVE,
@@ -51,7 +50,7 @@ typedef struct s_philo {
 
 // typedef struct s_fork {
 // 	pthread_mutex_t mutex;
-//	bool			taken;
+//	int				taken;
 // }	t_fork;
 
 //	Simulate functions
@@ -78,6 +77,10 @@ int				init(int argc, char **argv, t_data **data, t_philo **philos);
 unsigned long	get_time(void);
 unsigned long	ft_atolong(char *str);
 void			exact_sleep(unsigned long time);
-void			print_msg(t_philo *philo, char *msg);
+
+// Print functions
+void			print_eat(t_philo *philo, char *msg);
+void			print_sleep(t_philo *philo, char *msg);
+void			print_think(t_philo *philo, char *msg);
 
 #endif
