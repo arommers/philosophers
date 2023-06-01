@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/01 11:40:17 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/01 18:08:10 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,10 +20,10 @@
 # include <pthread.h>   // for pthread & mutex
 # include <limits.h>	// for atolong
 
-typedef enum e_status {
-	ALIVE,
-	DEAD,
-}	t_status;
+// typedef enum e_status {
+// 	ALIVE,
+// 	DEAD,
+// }	t_status;
 
 typedef struct s_data {
 	unsigned long		start;

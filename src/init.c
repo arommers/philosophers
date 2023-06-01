@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/29 15:11:24 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/01 18:07:59 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int	init_data(int argc, char **argv, t_data *data)
 	else
 		data->meal_nbr = -1;
 	data->done = 0;
-	data->status = ALIVE;
+	data->status = 0;
 	data->who_died = 0;
 	if (init_forks(data) != 0)
 		return (1);

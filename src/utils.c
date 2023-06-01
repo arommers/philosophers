@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:30:45 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/01 09:37:09 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/01 14:40:39 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	dead_check(t_philo *philo)
 {
-	if (philo->data->status == DEAD)
+	if (philo->data->status == 1)
 		return (1);
 	return (0);
 }

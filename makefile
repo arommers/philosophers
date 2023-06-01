@@ -6,12 +6,13 @@
 #    By: arommers <arommers@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2023/05/25 11:09:04 by arommers      #+#    #+#                  #
-#    Updated: 2023/05/31 11:00:46 by arommers      ########   odam.nl          #
+#    Updated: 2023/06/01 15:18:05 by arommers      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
+# CFLAGS += fsanitize=thread
 NAME = philosophers
 
 INCLUDE = -I./include
