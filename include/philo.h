@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/31 14:53:21 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/01 11:40:17 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,8 +55,10 @@ typedef struct s_philo {
 
 //	Simulate functions
 
+void			*observe(void *arg);
 void			*run_sim(void *arg);
 int				simulate(t_data *data, t_philo *philos);
+int				run_monitor(t_philo *philos);
 int				run_threads(pthread_t *threads, t_data *data, t_philo *philos);
 
 //	routine
@@ -76,6 +78,7 @@ int				init(int argc, char **argv, t_data **data, t_philo **philos);
 
 unsigned long	get_time(void);
 unsigned long	ft_atolong(char *str);
+int				dead_check(t_philo *philo);
 void			exact_sleep(unsigned long time);
 
 // Print functions

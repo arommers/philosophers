@@ -6,24 +6,27 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:30:45 by arommers      #+#    #+#                 */
-/*   Updated: 2023/05/31 15:04:39 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/01 09:37:09 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-void	someone_died()
+int	dead_check(t_philo *philo)
 {
-	
+	if (philo->data->status == DEAD)
+		return (1);
+	return (0);
 }
+
 unsigned long	ft_atolong(char *str)
 {
 	int				i;
-	int				sign;
+	// int				sign;
 	unsigned long	val;
 
 	i = 0;
-	sign = 1;
+	// sign = 1;
 	val = 0;
 	while (str[i] == '\t' || str[i] == '\f' || str[i] == ' '
 		|| str[i] == '\v' || str[i] == '\n' || str[i] == '\r')
