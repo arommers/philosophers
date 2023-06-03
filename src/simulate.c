@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/03 12:23:46 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/03 13:44:23 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ void	*observe(void *arg)
 
 	i = 0;
 	philos = (t_philo *)arg;
+	// exact_sleep(10);
 	while (1)
 	{
 		pthread_mutex_lock(philos[i].eating);
@@ -28,7 +29,9 @@ void	*observe(void *arg)
 		if ((get_time() - meal) >= (unsigned long)philos[i].data->time_to_die)
 		{
 			print_msg(&philos[i], "has died", 2);
-			philos->data->status = 1;
+			pthread_mutex_lock(philos[i].data->died);
+			philos[i].data->status = 1;
+			pthread_mutex_unlock(philos[i].data->died);
 			break ;
 		}
 		i = (i + 1) % philos[i].data->nr_philos;
@@ -58,6 +61,7 @@ void	*run_sim(void *arg)
 int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 {
 	int	i;
+	pthread_t	monitor;
 
 	i = -1;
 	while (++i < data->nr_philos)
@@ -69,6 +73,11 @@ int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 		}
 		exact_sleep(1);
 	}
+	if (run_monitor(philos, &monitor) != 0)
+	{
+		// free stuff
+		return (1);
+	}
 	while (--i >= 0)
 	{
 		if (pthread_join(threads[i], NULL) != 0)
@@ -77,14 +86,13 @@ int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 			return(1);
 		}
 	}
+	pthread_detach(monitor);
 	return (0);
 }
 
-int	run_monitor(t_philo *philos)
+int	run_monitor(t_philo *philos, pthread_t *monitor)
 {
-	pthread_t	monitor;
-
-	if (pthread_create(&monitor, NULL, &observe, &philos) != 0)
+	if (pthread_create(monitor, NULL, &observe, philos) != 0)
 	{
 		// free stuff
 		return (1);
@@ -103,11 +111,6 @@ int	simulate(t_data *data, t_philo *philos)
 		return (1);
 	}
 	if (run_threads(threads, data, philos) != 0)
-	{
-		// free stuff
-		return (1);
-	}
-	if (run_monitor(philos) != 0)
 	{
 		// free stuff
 		return (1);

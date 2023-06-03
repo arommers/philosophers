@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/03 12:33:41 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/03 13:31:46 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,10 @@ int	init_data(int argc, char **argv, t_data *data)
 	if (!data->print)
 		return (1);
 	pthread_mutex_init(data->print, NULL);
+	data->died = malloc(sizeof(pthread_mutex_t));
+	if (!data->died)
+		return (1);
+	pthread_mutex_init(data->died, NULL);
 	return (0);
 }
 

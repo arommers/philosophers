@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:30:45 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/01 14:40:39 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/03 12:43:00 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,13 @@
 
 int	dead_check(t_philo *philo)
 {
+	pthread_mutex_lock(philo->data->died);
 	if (philo->data->status == 1)
+	{
+		pthread_mutex_unlock(philo->data->died);
 		return (1);
+	}
+	pthread_mutex_unlock(philo->data->died);
 	return (0);
 }
 
