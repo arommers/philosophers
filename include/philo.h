@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/03 13:17:55 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/03 14:38:02 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,10 +82,6 @@ unsigned long	get_time(void);
 unsigned long	ft_atolong(char *str);
 int				dead_check(t_philo *philo);
 void			exact_sleep(unsigned long time);
-
-// Print functions
 void			print_msg(t_philo *philo, char *msg, int i);
-void			print_sleep(t_philo *philo);
-void			print_think(t_philo *philo);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/29 12:47:33 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/03 12:23:48 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/03 14:35:17 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	drop_forks(t_philo *philo)
 	pthread_mutex_unlock(philo->l_fork);
 	pthread_mutex_unlock(philo->r_fork);
 	exact_sleep(philo->data->time_to_sleep);
-	print_sleep(philo);
+	print_msg(philo, "is sleeping", 3);
 }
 
 int	routine(t_philo *philo)

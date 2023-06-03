@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/03 13:44:23 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/03 14:34:11 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ void	*observe(void *arg)
 
 	i = 0;
 	philos = (t_philo *)arg;
-	// exact_sleep(10);
 	while (1)
 	{
 		pthread_mutex_lock(philos[i].eating);
@@ -35,7 +34,6 @@ void	*observe(void *arg)
 			break ;
 		}
 		i = (i + 1) % philos[i].data->nr_philos;
-		// exact_sleep(100);
 	}
 	return ((void *) 0);
 }
@@ -53,7 +51,7 @@ void	*run_sim(void *arg)
 		// 	break ;
 		if (routine(philo) != 1)
 			break ;
-		print_think(philo);
+		print_msg(philo, "is thinking", 4);
 	}
 	return ((void *) 0);
 }
