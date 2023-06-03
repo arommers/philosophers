@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/29 12:47:33 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/01 17:55:06 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/03 12:23:48 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,10 @@ void	drop_forks(t_philo *philo)
 int	routine(t_philo *philo)
 {
 	take_forks(philo);
+	pthread_mutex_lock(philo->eating);
 	philo->last_meal = get_time();
 	philo->meals_eaten++;
+	pthread_mutex_unlock(philo->eating);
 	drop_forks(philo);
 	return (1);
 }

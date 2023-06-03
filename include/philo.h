@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/01 18:08:10 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/03 12:20:28 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@ typedef struct s_philo {
 	unsigned long		last_meal;
 	pthread_mutex_t		*l_fork;
 	pthread_mutex_t		*r_fork;
+	pthread_mutex_t		*eating;
 	t_data				*data;
 }	t_philo;
 

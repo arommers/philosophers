@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/01 18:46:48 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/03 12:23:46 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,19 +20,19 @@ void	*observe(void *arg)
 
 	i = 0;
 	philos = (t_philo *)arg;
-	// exact_sleep(1000);
 	while (1)
 	{
-		printf("test\n");
+		pthread_mutex_lock(philos[i].eating);
 		meal = philos[i].last_meal;
+		pthread_mutex_unlock(philos[i].eating);
 		if ((get_time() - meal) >= (unsigned long)philos[i].data->time_to_die)
 		{
 			print_msg(&philos[i], "has died", 2);
 			philos->data->status = 1;
-			philos[i].data->who_died = philos[i].id;
 			break ;
 		}
 		i = (i + 1) % philos[i].data->nr_philos;
+		// exact_sleep(100);
 	}
 	return ((void *) 0);
 }

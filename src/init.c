@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/01 18:07:59 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/03 12:33:41 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,8 +50,12 @@ int	init_data(int argc, char **argv, t_data *data)
 
 int	init_philos(t_data *data, t_philo *philos)
 {
-	int	i;
+	int				i;
+	pthread_mutex_t	*eating;
 
+	eating = malloc(data->nr_philos * sizeof(pthread_mutex_t));
+	if (!eating)
+		return (1);
 	i = 0;
 	while (i < data->nr_philos)
 	{
@@ -60,6 +64,8 @@ int	init_philos(t_data *data, t_philo *philos)
 		philos[i].last_meal = get_time();
 		philos[i].l_fork = &data->forks[i];
 		philos[i].r_fork = &data->forks[(i + 1) % data->nr_philos];
+		pthread_mutex_init(&eating[i], NULL);
+		philos[i].eating = &eating[i];
 		philos[i].data = data;
 		i++;
 	}
