@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/03 14:34:11 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/05 16:23:03 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,15 +24,17 @@ void	*observe(void *arg)
 	{
 		pthread_mutex_lock(philos[i].eating);
 		meal = philos[i].last_meal;
-		pthread_mutex_unlock(philos[i].eating);
 		if ((get_time() - meal) >= (unsigned long)philos[i].data->time_to_die)
 		{
 			print_msg(&philos[i], "has died", 2);
 			pthread_mutex_lock(philos[i].data->died);
 			philos[i].data->status = 1;
+			pthread_mutex_unlock(philos[i].eating);
 			pthread_mutex_unlock(philos[i].data->died);
 			break ;
 		}
+		pthread_mutex_unlock(philos[i].eating);
+		// exact_sleep(100);
 		i = (i + 1) % philos[i].data->nr_philos;
 	}
 	return ((void *) 0);
@@ -43,6 +45,8 @@ void	*run_sim(void *arg)
 	t_philo	*philo;
 
 	philo = (t_philo *)arg;
+	if (philo->id % 2 == 0)
+		exact_sleep(philo->data->time_to_eat);
 	while (1)
 	{
 		if (dead_check(philo) == 1)
@@ -69,7 +73,7 @@ int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 			//error_message
 			return (1);
 		}
-		exact_sleep(1);
+		// exact_sleep(1);
 	}
 	if (run_monitor(philos, &monitor) != 0)
 	{

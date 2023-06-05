@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/29 12:47:33 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/03 14:35:17 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/05 15:03:36 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,11 @@
 
 void	take_forks(t_philo *philo)
 {
-	pthread_mutex_lock(philo->l_fork);
-	print_msg(philo, "has taken a fork", 1);
 	pthread_mutex_lock(philo->r_fork);
 	print_msg(philo, "has taken a fork", 1);
+	pthread_mutex_lock(philo->l_fork);
+	print_msg(philo, "has taken a fork", 1);
 	print_msg(philo, "is eating", 0);
-	exact_sleep(philo->data->time_to_eat);
 }
 
 void	drop_forks(t_philo *philo)
@@ -37,6 +36,7 @@ int	routine(t_philo *philo)
 	philo->last_meal = get_time();
 	philo->meals_eaten++;
 	pthread_mutex_unlock(philo->eating);
+	exact_sleep(philo->data->time_to_eat);
 	drop_forks(philo);
 	return (1);
 }
