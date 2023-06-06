@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/31 10:39:50 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/05 10:58:56 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/06 22:13:05 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,10 @@ void	print_msg(t_philo *philo, char *msg, int i)
 			printf("\033[1;31;5m%lu %d %s\033[0m\n", time, philo->id, msg);
 		else if (i == 3)
 			printf("\033[1;95m%lu %d %s\033[0m\n", time, philo->id, msg);
-		else
+		else if (i == 4)
 			printf("\033[1;36m%lu %d %s\033[0m\n", time, philo->id, msg);
+		else
+			printf("\033[1;92m%lu %s\033[0m\n", time, msg);
 		pthread_mutex_unlock(philo->data->print);
 	}
 	else

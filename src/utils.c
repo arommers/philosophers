@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:30:45 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/05 16:18:46 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/06 10:22:48 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,28 @@
 
 int	dead_check(t_philo *philo)
 {
-	pthread_mutex_lock(philo->data->died);
+	pthread_mutex_lock(philo->data->print);
 	if (philo->data->status == 1)
 	{
-		pthread_mutex_unlock(philo->data->died);
+		pthread_mutex_unlock(philo->data->print);
 		return (1);
 	}
 	else
-		pthread_mutex_unlock(philo->data->died);
+		pthread_mutex_unlock(philo->data->print);
+	return (0);
+}
+
+int	done_check(t_philo *philo)
+{
+	pthread_mutex_lock(philo->data->print);
+	if (philo->meals_eaten == philo->data->meal_nbr)
+	{
+		philo->data->done++;
+		pthread_mutex_unlock(philo->data->print);
+		return (1);
+	}
+	else
+		pthread_mutex_unlock(philo->data->print);
 	return (0);
 }
 
@@ -68,8 +82,8 @@ void	exact_sleep(unsigned long time)
 		current = get_time();
 		if (current >= end)
 			break ;
-		if (end - current < 500)
-			usleep(end - current);
+		// if (end - current < 500)
+		// 	usleep(end - current);
 		else
 			usleep(500);
 	}

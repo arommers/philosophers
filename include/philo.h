@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/05 14:27:57 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/06 22:04:18 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,10 @@ typedef struct s_data {
 	int					meal_nbr;
 	int					done;
 	int					status;
-	int					who_died;
 	int					time_to_die;
 	int					time_to_eat;
 	int					time_to_sleep;
 	pthread_mutex_t		*forks;
-	pthread_mutex_t		*died;
 	pthread_mutex_t		*print;
 }	t_data;
 
@@ -81,6 +79,7 @@ int				init(int argc, char **argv, t_data **data, t_philo **philos);
 unsigned long	get_time(void);
 unsigned long	ft_atolong(char *str);
 int				dead_check(t_philo *philo);
+int				done_check(t_philo *philo);
 void			exact_sleep(unsigned long time);
 void			print_msg(t_philo *philo, char *msg, int i);
 

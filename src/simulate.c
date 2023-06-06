@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/05 16:23:03 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/06 22:05:46 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,14 +27,15 @@ void	*observe(void *arg)
 		if ((get_time() - meal) >= (unsigned long)philos[i].data->time_to_die)
 		{
 			print_msg(&philos[i], "has died", 2);
-			pthread_mutex_lock(philos[i].data->died);
+			pthread_mutex_lock(philos[i].data->print);
 			philos[i].data->status = 1;
 			pthread_mutex_unlock(philos[i].eating);
-			pthread_mutex_unlock(philos[i].data->died);
+			pthread_mutex_unlock(philos[i].data->print);
 			break ;
 		}
+		if (philos->data->done == philos->data->nr_philos)
+			break ;
 		pthread_mutex_unlock(philos[i].eating);
-		// exact_sleep(100);
 		i = (i + 1) % philos[i].data->nr_philos;
 	}
 	return ((void *) 0);
@@ -45,14 +46,17 @@ void	*run_sim(void *arg)
 	t_philo	*philo;
 
 	philo = (t_philo *)arg;
+	
+	// pthread_mutex_lock(philo->data->align);
+	// pthread_mutex_unlock(philo->data->align);
 	if (philo->id % 2 == 0)
 		exact_sleep(philo->data->time_to_eat);
 	while (1)
 	{
 		if (dead_check(philo) == 1)
 			break ;
-		// if (done_check) == 0)
-		// 	break ;
+		if (done_check(philo) == 1)
+		 	break ;
 		if (routine(philo) != 1)
 			break ;
 		print_msg(philo, "is thinking", 4);
@@ -66,6 +70,7 @@ int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 	pthread_t	monitor;
 
 	i = -1;
+	data->start = get_time();
 	while (++i < data->nr_philos)
 	{
 		if (pthread_create(&threads[i], NULL, &run_sim, &philos[i]) != 0)
@@ -73,7 +78,6 @@ int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 			//error_message
 			return (1);
 		}
-		// exact_sleep(1);
 	}
 	if (run_monitor(philos, &monitor) != 0)
 	{

@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/03 13:31:46 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/06 08:38:03 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,6 @@ int	init_forks(t_data *data)
 
 int	init_data(int argc, char **argv, t_data *data)
 {
-	data->start = get_time();
 	data->nr_philos = (int)ft_atolong(argv[1]);
 	data->time_to_die = (int)ft_atolong(argv[2]);
 	data->time_to_eat = (int)ft_atolong(argv[3]);
@@ -38,17 +37,12 @@ int	init_data(int argc, char **argv, t_data *data)
 		data->meal_nbr = -1;
 	data->done = 0;
 	data->status = 0;
-	data->who_died = 0;
 	if (init_forks(data) != 0)
 		return (1);
 	data->print = malloc(sizeof(pthread_mutex_t));
 	if (!data->print)
 		return (1);
 	pthread_mutex_init(data->print, NULL);
-	data->died = malloc(sizeof(pthread_mutex_t));
-	if (!data->died)
-		return (1);
-	pthread_mutex_init(data->died, NULL);
 	return (0);
 }
 
