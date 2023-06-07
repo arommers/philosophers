@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/06 22:05:46 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/07 14:13:57 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,25 +18,33 @@ void	*observe(void *arg)
 	t_philo			*philos;
 	unsigned long	meal;
 
-	i = 0;
 	philos = (t_philo *)arg;
 	while (1)
 	{
-		pthread_mutex_lock(philos[i].eating);
-		meal = philos[i].last_meal;
-		if ((get_time() - meal) >= (unsigned long)philos[i].data->time_to_die)
+		i = 0;
+		while (i < philos->data->nr_philos)
 		{
-			print_msg(&philos[i], "has died", 2);
-			pthread_mutex_lock(philos[i].data->print);
-			philos[i].data->status = 1;
+			pthread_mutex_lock(philos[i].eating);
+			meal = philos[i].last_meal;
+			if ((get_time() - meal) >= (unsigned long)philos[i].data->time_to_die)
+			{
+				pthread_mutex_unlock(philos[i].eating);
+				print_msg(&philos[i], "has died", 2);
+				pthread_mutex_lock(philos[i].data->print);
+				philos[i].data->status = 1;
+				pthread_mutex_unlock(philos[i].data->print);
+				return ((void *) 0);
+			}
+			if (philos->data->done == philos->data->nr_philos)
+			{
+				pthread_mutex_unlock(philos[i].eating);
+				return ((void *) 0);
+			}
 			pthread_mutex_unlock(philos[i].eating);
-			pthread_mutex_unlock(philos[i].data->print);
-			break ;
+			i++;
 		}
-		if (philos->data->done == philos->data->nr_philos)
-			break ;
-		pthread_mutex_unlock(philos[i].eating);
-		i = (i + 1) % philos[i].data->nr_philos;
+		exact_sleep(250);
+		// i = (i + 1) % philos[i].data->nr_philos;
 	}
 	return ((void *) 0);
 }
@@ -46,27 +54,23 @@ void	*run_sim(void *arg)
 	t_philo	*philo;
 
 	philo = (t_philo *)arg;
-	
-	// pthread_mutex_lock(philo->data->align);
-	// pthread_mutex_unlock(philo->data->align);
 	if (philo->id % 2 == 0)
-		exact_sleep(philo->data->time_to_eat);
+		exact_sleep(philo->data->time_to_eat / 10);
 	while (1)
 	{
 		if (dead_check(philo) == 1)
 			break ;
 		if (done_check(philo) == 1)
-		 	break ;
+			break ;
 		if (routine(philo) != 1)
 			break ;
-		print_msg(philo, "is thinking", 4);
 	}
 	return ((void *) 0);
 }
 
 int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 {
-	int	i;
+	int			i;
 	pthread_t	monitor;
 
 	i = -1;

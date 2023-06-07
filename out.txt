@@ -1,0 +1,1991 @@
+[1;33m0 1 has taken a fork[0m
+[1;33m0 1 has taken a fork[0m
+[1;32m0 1 is eating[0m
+[1;33m0 5 has taken a fork[0m
+[1;33m0 5 has taken a fork[0m
+[1;32m0 5 is eating[0m
+[1;33m0 15 has taken a fork[0m
+[1;33m0 15 has taken a fork[0m
+[1;32m0 15 is eating[0m
+[1;33m0 3 has taken a fork[0m
+[1;33m0 3 has taken a fork[0m
+[1;32m0 3 is eating[0m
+[1;33m0 11 has taken a fork[0m
+[1;33m0 11 has taken a fork[0m
+[1;32m0 11 is eating[0m
+[1;33m0 7 has taken a fork[0m
+[1;33m0 7 has taken a fork[0m
+[1;32m0 7 is eating[0m
+[1;33m0 13 has taken a fork[0m
+[1;33m0 17 has taken a fork[0m
+[1;33m0 17 has taken a fork[0m
+[1;32m0 17 is eating[0m
+[1;33m0 13 has taken a fork[0m
+[1;32m0 13 is eating[0m
+[1;33m0 9 has taken a fork[0m
+[1;33m0 9 has taken a fork[0m
+[1;32m0 9 is eating[0m
+[1;33m0 19 has taken a fork[0m
+[1;33m0 19 has taken a fork[0m
+[1;32m0 19 is eating[0m
+[1;33m0 21 has taken a fork[0m
+[1;33m0 21 has taken a fork[0m
+[1;32m0 21 is eating[0m
+[1;33m0 23 has taken a fork[0m
+[1;33m0 23 has taken a fork[0m
+[1;32m0 23 is eating[0m
+[1;33m0 25 has taken a fork[0m
+[1;33m0 25 has taken a fork[0m
+[1;32m0 25 is eating[0m
+[1;33m0 27 has taken a fork[0m
+[1;33m0 27 has taken a fork[0m
+[1;32m0 27 is eating[0m
+[1;33m0 29 has taken a fork[0m
+[1;33m0 29 has taken a fork[0m
+[1;32m0 29 is eating[0m
+[1;33m0 31 has taken a fork[0m
+[1;33m0 31 has taken a fork[0m
+[1;32m0 31 is eating[0m
+[1;33m0 33 has taken a fork[0m
+[1;33m0 33 has taken a fork[0m
+[1;32m0 33 is eating[0m
+[1;33m0 35 has taken a fork[0m
+[1;33m0 35 has taken a fork[0m
+[1;32m0 35 is eating[0m
+[1;33m0 37 has taken a fork[0m
+[1;33m0 37 has taken a fork[0m
+[1;32m0 37 is eating[0m
+[1;33m0 39 has taken a fork[0m
+[1;33m0 39 has taken a fork[0m
+[1;32m0 39 is eating[0m
+[1;33m0 41 has taken a fork[0m
+[1;33m0 41 has taken a fork[0m
+[1;32m0 41 is eating[0m
+[1;33m0 43 has taken a fork[0m
+[1;33m0 43 has taken a fork[0m
+[1;32m0 43 is eating[0m
+[1;33m0 45 has taken a fork[0m
+[1;33m0 45 has taken a fork[0m
+[1;32m0 45 is eating[0m
+[1;33m0 47 has taken a fork[0m
+[1;33m0 47 has taken a fork[0m
+[1;32m0 47 is eating[0m
+[1;33m0 49 has taken a fork[0m
+[1;33m0 49 has taken a fork[0m
+[1;32m0 49 is eating[0m
+[1;33m1 51 has taken a fork[0m
+[1;33m1 51 has taken a fork[0m
+[1;32m1 51 is eating[0m
+[1;33m1 53 has taken a fork[0m
+[1;33m1 53 has taken a fork[0m
+[1;32m1 53 is eating[0m
+[1;33m1 55 has taken a fork[0m
+[1;33m1 55 has taken a fork[0m
+[1;32m1 55 is eating[0m
+[1;33m1 57 has taken a fork[0m
+[1;33m1 57 has taken a fork[0m
+[1;32m1 57 is eating[0m
+[1;33m1 59 has taken a fork[0m
+[1;33m1 59 has taken a fork[0m
+[1;32m1 59 is eating[0m
+[1;33m1 61 has taken a fork[0m
+[1;33m1 61 has taken a fork[0m
+[1;32m1 61 is eating[0m
+[1;33m1 63 has taken a fork[0m
+[1;33m1 63 has taken a fork[0m
+[1;32m1 63 is eating[0m
+[1;33m1 65 has taken a fork[0m
+[1;33m1 65 has taken a fork[0m
+[1;32m1 65 is eating[0m
+[1;33m1 67 has taken a fork[0m
+[1;33m1 67 has taken a fork[0m
+[1;32m1 67 is eating[0m
+[1;33m1 69 has taken a fork[0m
+[1;33m1 69 has taken a fork[0m
+[1;32m1 69 is eating[0m
+[1;33m1 71 has taken a fork[0m
+[1;33m1 71 has taken a fork[0m
+[1;32m1 71 is eating[0m
+[1;33m1 73 has taken a fork[0m
+[1;33m1 73 has taken a fork[0m
+[1;32m1 73 is eating[0m
+[1;33m1 75 has taken a fork[0m
+[1;33m1 75 has taken a fork[0m
+[1;32m1 75 is eating[0m
+[1;33m1 77 has taken a fork[0m
+[1;33m1 77 has taken a fork[0m
+[1;32m1 77 is eating[0m
+[1;33m1 79 has taken a fork[0m
+[1;33m1 79 has taken a fork[0m
+[1;32m1 79 is eating[0m
+[1;33m1 81 has taken a fork[0m
+[1;33m1 81 has taken a fork[0m
+[1;32m1 81 is eating[0m
+[1;33m1 83 has taken a fork[0m
+[1;33m1 83 has taken a fork[0m
+[1;32m1 83 is eating[0m
+[1;33m1 85 has taken a fork[0m
+[1;33m1 85 has taken a fork[0m
+[1;32m1 85 is eating[0m
+[1;33m1 87 has taken a fork[0m
+[1;33m1 87 has taken a fork[0m
+[1;32m1 87 is eating[0m
+[1;33m1 89 has taken a fork[0m
+[1;33m1 89 has taken a fork[0m
+[1;32m1 89 is eating[0m
+[1;33m1 91 has taken a fork[0m
+[1;33m1 91 has taken a fork[0m
+[1;32m1 91 is eating[0m
+[1;33m1 93 has taken a fork[0m
+[1;33m1 93 has taken a fork[0m
+[1;32m1 93 is eating[0m
+[1;33m1 95 has taken a fork[0m
+[1;33m1 95 has taken a fork[0m
+[1;32m1 95 is eating[0m
+[1;33m1 97 has taken a fork[0m
+[1;33m1 97 has taken a fork[0m
+[1;32m1 97 is eating[0m
+[1;33m1 99 has taken a fork[0m
+[1;33m1 99 has taken a fork[0m
+[1;32m1 99 is eating[0m
+[1;33m1 101 has taken a fork[0m
+[1;33m1 101 has taken a fork[0m
+[1;32m1 101 is eating[0m
+[1;33m1 103 has taken a fork[0m
+[1;33m1 103 has taken a fork[0m
+[1;32m1 103 is eating[0m
+[1;33m1 105 has taken a fork[0m
+[1;33m1 105 has taken a fork[0m
+[1;32m1 105 is eating[0m
+[1;33m1 107 has taken a fork[0m
+[1;33m1 107 has taken a fork[0m
+[1;32m1 107 is eating[0m
+[1;33m1 109 has taken a fork[0m
+[1;33m1 109 has taken a fork[0m
+[1;32m1 109 is eating[0m
+[1;33m1 111 has taken a fork[0m
+[1;33m1 111 has taken a fork[0m
+[1;32m1 111 is eating[0m
+[1;33m1 113 has taken a fork[0m
+[1;33m1 113 has taken a fork[0m
+[1;32m1 113 is eating[0m
+[1;33m1 115 has taken a fork[0m
+[1;33m1 115 has taken a fork[0m
+[1;32m1 115 is eating[0m
+[1;33m1 117 has taken a fork[0m
+[1;33m1 117 has taken a fork[0m
+[1;32m1 117 is eating[0m
+[1;33m1 119 has taken a fork[0m
+[1;33m1 119 has taken a fork[0m
+[1;32m1 119 is eating[0m
+[1;33m1 121 has taken a fork[0m
+[1;33m1 121 has taken a fork[0m
+[1;32m1 121 is eating[0m
+[1;33m1 123 has taken a fork[0m
+[1;33m1 123 has taken a fork[0m
+[1;32m1 123 is eating[0m
+[1;33m1 125 has taken a fork[0m
+[1;33m1 125 has taken a fork[0m
+[1;32m1 125 is eating[0m
+[1;33m1 127 has taken a fork[0m
+[1;33m1 127 has taken a fork[0m
+[1;32m1 127 is eating[0m
+[1;33m1 129 has taken a fork[0m
+[1;33m1 129 has taken a fork[0m
+[1;32m1 129 is eating[0m
+[1;33m1 131 has taken a fork[0m
+[1;33m1 131 has taken a fork[0m
+[1;32m1 131 is eating[0m
+[1;33m1 133 has taken a fork[0m
+[1;33m1 133 has taken a fork[0m
+[1;32m1 133 is eating[0m
+[1;33m1 135 has taken a fork[0m
+[1;33m1 135 has taken a fork[0m
+[1;32m1 135 is eating[0m
+[1;33m1 137 has taken a fork[0m
+[1;33m1 137 has taken a fork[0m
+[1;32m1 137 is eating[0m
+[1;33m2 139 has taken a fork[0m
+[1;33m2 139 has taken a fork[0m
+[1;32m2 139 is eating[0m
+[1;33m2 141 has taken a fork[0m
+[1;33m2 141 has taken a fork[0m
+[1;32m2 141 is eating[0m
+[1;33m2 143 has taken a fork[0m
+[1;33m2 143 has taken a fork[0m
+[1;32m2 143 is eating[0m
+[1;33m2 145 has taken a fork[0m
+[1;33m2 145 has taken a fork[0m
+[1;32m2 145 is eating[0m
+[1;33m2 147 has taken a fork[0m
+[1;33m2 147 has taken a fork[0m
+[1;32m2 147 is eating[0m
+[1;33m2 149 has taken a fork[0m
+[1;33m2 149 has taken a fork[0m
+[1;32m2 149 is eating[0m
+[1;33m2 151 has taken a fork[0m
+[1;33m2 151 has taken a fork[0m
+[1;32m2 151 is eating[0m
+[1;33m2 153 has taken a fork[0m
+[1;33m2 153 has taken a fork[0m
+[1;32m2 153 is eating[0m
+[1;33m2 155 has taken a fork[0m
+[1;33m2 155 has taken a fork[0m
+[1;32m2 155 is eating[0m
+[1;33m2 157 has taken a fork[0m
+[1;33m2 157 has taken a fork[0m
+[1;32m2 157 is eating[0m
+[1;33m2 159 has taken a fork[0m
+[1;33m2 159 has taken a fork[0m
+[1;32m2 159 is eating[0m
+[1;33m2 161 has taken a fork[0m
+[1;33m2 161 has taken a fork[0m
+[1;32m2 161 is eating[0m
+[1;33m2 163 has taken a fork[0m
+[1;33m2 163 has taken a fork[0m
+[1;32m2 163 is eating[0m
+[1;33m2 165 has taken a fork[0m
+[1;33m2 165 has taken a fork[0m
+[1;32m2 165 is eating[0m
+[1;33m2 167 has taken a fork[0m
+[1;33m2 167 has taken a fork[0m
+[1;32m2 167 is eating[0m
+[1;33m2 169 has taken a fork[0m
+[1;33m2 169 has taken a fork[0m
+[1;32m2 169 is eating[0m
+[1;33m2 171 has taken a fork[0m
+[1;33m2 171 has taken a fork[0m
+[1;32m2 171 is eating[0m
+[1;33m2 173 has taken a fork[0m
+[1;33m2 173 has taken a fork[0m
+[1;32m2 173 is eating[0m
+[1;33m2 175 has taken a fork[0m
+[1;33m2 175 has taken a fork[0m
+[1;32m2 175 is eating[0m
+[1;33m2 177 has taken a fork[0m
+[1;33m2 177 has taken a fork[0m
+[1;32m2 177 is eating[0m
+[1;33m2 179 has taken a fork[0m
+[1;33m2 179 has taken a fork[0m
+[1;32m2 179 is eating[0m
+[1;33m2 181 has taken a fork[0m
+[1;33m2 181 has taken a fork[0m
+[1;32m2 181 is eating[0m
+[1;33m2 183 has taken a fork[0m
+[1;33m2 183 has taken a fork[0m
+[1;32m2 183 is eating[0m
+[1;33m2 185 has taken a fork[0m
+[1;33m2 185 has taken a fork[0m
+[1;32m2 185 is eating[0m
+[1;33m2 187 has taken a fork[0m
+[1;33m2 187 has taken a fork[0m
+[1;32m2 187 is eating[0m
+[1;33m2 189 has taken a fork[0m
+[1;33m2 189 has taken a fork[0m
+[1;32m2 189 is eating[0m
+[1;33m2 191 has taken a fork[0m
+[1;33m2 191 has taken a fork[0m
+[1;32m2 191 is eating[0m
+[1;33m2 193 has taken a fork[0m
+[1;33m2 193 has taken a fork[0m
+[1;32m2 193 is eating[0m
+[1;33m2 195 has taken a fork[0m
+[1;33m2 195 has taken a fork[0m
+[1;32m2 195 is eating[0m
+[1;33m2 197 has taken a fork[0m
+[1;33m2 197 has taken a fork[0m
+[1;32m2 197 is eating[0m
+[1;95m60 43 is sleeping[0m
+[1;95m60 49 is sleeping[0m
+[1;95m60 23 is sleeping[0m
+[1;95m60 7 is sleeping[0m
+[1;95m60 31 is sleeping[0m
+[1;95m60 47 is sleeping[0m
+[1;95m60 35 is sleeping[0m
+[1;95m60 17 is sleeping[0m
+[1;33m60 48 has taken a fork[0m
+[1;33m60 48 has taken a fork[0m
+[1;32m60 48 is eating[0m
+[1;33m60 26 has taken a fork[0m
+[1;95m60 3 is sleeping[0m
+[1;33m60 16 has taken a fork[0m
+[1;95m60 39 is sleeping[0m
+[1;95m60 25 is sleeping[0m
+[1;33m60 22 has taken a fork[0m
+[1;95m60 11 is sleeping[0m
+[1;33m60 34 has taken a fork[0m
+[1;95m60 5 is sleeping[0m
+[1;95m60 1 is sleeping[0m
+[1;33m60 42 has taken a fork[0m
+[1;33m60 10 has taken a fork[0m
+[1;33m60 10 has taken a fork[0m
+[1;95m60 37 is sleeping[0m
+[1;95m60 15 is sleeping[0m
+[1;33m60 6 has taken a fork[0m
+[1;95m60 29 is sleeping[0m
+[1;33m60 6 has taken a fork[0m
+[1;33m60 4 has taken a fork[0m
+[1;33m60 4 has taken a fork[0m
+[1;32m60 4 is eating[0m
+[1;95m60 45 is sleeping[0m
+[1;95m60 41 is sleeping[0m
+[1;95m60 21 is sleeping[0m
+[1;95m60 27 is sleeping[0m
+[1;33m60 2 has taken a fork[0m
+[1;33m60 32 has taken a fork[0m
+[1;33m60 32 has taken a fork[0m
+[1;33m60 24 has taken a fork[0m
+[1;33m60 24 has taken a fork[0m
+[1;33m60 26 has taken a fork[0m
+[1;32m60 24 is eating[0m
+[1;33m60 12 has taken a fork[0m
+[1;33m60 12 has taken a fork[0m
+[1;33m60 8 has taken a fork[0m
+[1;32m60 12 is eating[0m
+[1;33m60 8 has taken a fork[0m
+[1;32m60 8 is eating[0m
+[1;95m60 9 is sleeping[0m
+[1;33m60 36 has taken a fork[0m
+[1;33m60 18 has taken a fork[0m
+[1;33m60 18 has taken a fork[0m
+[1;32m60 18 is eating[0m
+[1;33m60 36 has taken a fork[0m
+[1;33m60 16 has taken a fork[0m
+[1;95m60 19 is sleeping[0m
+[1;32m60 16 is eating[0m
+[1;32m60 10 is eating[0m
+[1;33m60 40 has taken a fork[0m
+[1;33m60 42 has taken a fork[0m
+[1;33m60 20 has taken a fork[0m
+[1;33m60 22 has taken a fork[0m
+[1;33m60 20 has taken a fork[0m
+[1;32m60 42 is eating[0m
+[1;32m60 20 is eating[0m
+[1;33m60 46 has taken a fork[0m
+[1;33m60 46 has taken a fork[0m
+[1;33m60 30 has taken a fork[0m
+[1;33m60 2 has taken a fork[0m
+[1;32m60 26 is eating[0m
+[1;33m60 34 has taken a fork[0m
+[1;33m60 199 has taken a fork[0m
+[1;32m60 34 is eating[0m
+[1;33m60 199 has taken a fork[0m
+[1;32m60 199 is eating[0m
+[1;33m60 44 has taken a fork[0m
+[1;33m60 44 has taken a fork[0m
+[1;32m60 36 is eating[0m
+[1;32m60 6 is eating[0m
+[1;33m60 40 has taken a fork[0m
+[1;32m60 46 is eating[0m
+[1;32m60 40 is eating[0m
+[1;32m60 22 is eating[0m
+[1;32m60 32 is eating[0m
+[1;95m60 13 is sleeping[0m
+[1;33m60 28 has taken a fork[0m
+[1;95m60 33 is sleeping[0m
+[1;33m60 28 has taken a fork[0m
+[1;32m60 28 is eating[0m
+[1;33m60 30 has taken a fork[0m
+[1;32m60 30 is eating[0m
+[1;33m60 14 has taken a fork[0m
+[1;33m60 14 has taken a fork[0m
+[1;32m60 14 is eating[0m
+[1;33m60 38 has taken a fork[0m
+[1;33m60 38 has taken a fork[0m
+[1;32m60 38 is eating[0m
+[1;32m60 2 is eating[0m
+[1;32m60 44 is eating[0m
+[1;95m61 61 is sleeping[0m
+[1;95m61 69 is sleeping[0m
+[1;95m61 101 is sleeping[0m
+[1;95m61 95 is sleeping[0m
+[1;95m61 127 is sleeping[0m
+[1;95m61 129 is sleeping[0m
+[1;95m61 105 is sleeping[0m
+[1;95m61 107 is sleeping[0m
+[1;95m61 123 is sleeping[0m
+[1;33m61 104 has taken a fork[0m
+[1;95m61 79 is sleeping[0m
+[1;95m61 89 is sleeping[0m
+[1;33m61 94 has taken a fork[0m
+[1;95m61 65 is sleeping[0m
+[1;95m61 73 is sleeping[0m
+[1;95m61 97 is sleeping[0m
+[1;33m61 68 has taken a fork[0m
+[1;95m61 109 is sleeping[0m
+[1;33m61 128 has taken a fork[0m
+[1;33m61 128 has taken a fork[0m
+[1;32m61 128 is eating[0m
+[1;33m61 96 has taken a fork[0m
+[1;95m61 81 is sleeping[0m
+[1;33m61 96 has taken a fork[0m
+[1;32m61 96 is eating[0m
+[1;33m61 88 has taken a fork[0m
+[1;33m61 88 has taken a fork[0m
+[1;32m61 88 is eating[0m
+[1;95m61 135 is sleeping[0m
+[1;95m61 99 is sleeping[0m
+[1;95m61 59 is sleeping[0m
+[1;33m61 52 has taken a fork[0m
+[1;95m61 103 is sleeping[0m
+[1;95m61 51 is sleeping[0m
+[1;33m61 52 has taken a fork[0m
+[1;32m61 52 is eating[0m
+[1;95m61 83 is sleeping[0m
+[1;33m61 108 has taken a fork[0m
+[1;33m61 108 has taken a fork[0m
+[1;32m61 108 is eating[0m
+[1;95m61 77 is sleeping[0m
+[1;95m61 67 is sleeping[0m
+[1;33m61 70 has taken a fork[0m
+[1;33m61 70 has taken a fork[0m
+[1;32m61 70 is eating[0m
+[1;33m61 64 has taken a fork[0m
+[1;95m61 75 is sleeping[0m
+[1;33m61 80 has taken a fork[0m
+[1;33m61 80 has taken a fork[0m
+[1;32m61 80 is eating[0m
+[1;95m61 57 is sleeping[0m
+[1;95m61 137 is sleeping[0m
+[1;33m61 110 has taken a fork[0m
+[1;33m61 110 has taken a fork[0m
+[1;32m61 110 is eating[0m
+[1;95m61 115 is sleeping[0m
+[1;95m61 63 is sleeping[0m
+[1;95m61 91 is sleeping[0m
+[1;95m61 117 is sleeping[0m
+[1;95m61 131 is sleeping[0m
+[1;95m61 121 is sleeping[0m
+[1;33m61 134 has taken a fork[0m
+[1;33m61 134 has taken a fork[0m
+[1;32m61 134 is eating[0m
+[1;95m61 93 is sleeping[0m
+[1;95m61 125 is sleeping[0m
+[1;33m61 50 has taken a fork[0m
+[1;33m61 50 has taken a fork[0m
+[1;32m61 50 is eating[0m
+[1;95m61 113 is sleeping[0m
+[1;95m61 55 is sleeping[0m
+[1;33m61 126 has taken a fork[0m
+[1;33m61 126 has taken a fork[0m
+[1;32m61 126 is eating[0m
+[1;95m61 85 is sleeping[0m
+[1;33m61 56 has taken a fork[0m
+[1;33m61 56 has taken a fork[0m
+[1;32m61 56 is eating[0m
+[1;33m61 78 has taken a fork[0m
+[1;33m61 78 has taken a fork[0m
+[1;33m61 102 has taken a fork[0m
+[1;95m61 119 is sleeping[0m
+[1;33m61 102 has taken a fork[0m
+[1;33m61 72 has taken a fork[0m
+[1;33m61 72 has taken a fork[0m
+[1;32m61 72 is eating[0m
+[1;32m61 102 is eating[0m
+[1;33m61 100 has taken a fork[0m
+[1;95m61 71 is sleeping[0m
+[1;33m61 100 has taken a fork[0m
+[1;33m61 98 has taken a fork[0m
+[1;33m61 104 has taken a fork[0m
+[1;33m61 76 has taken a fork[0m
+[1;33m61 68 has taken a fork[0m
+[1;33m61 76 has taken a fork[0m
+[1;32m61 68 is eating[0m
+[1;33m61 60 has taken a fork[0m
+[1;33m61 60 has taken a fork[0m
+[1;33m61 136 has taken a fork[0m
+[1;33m61 62 has taken a fork[0m
+[1;33m61 62 has taken a fork[0m
+[1;33m61 64 has taken a fork[0m
+[1;32m61 62 is eating[0m
+[1;33m61 114 has taken a fork[0m
+[1;33m61 90 has taken a fork[0m
+[1;33m61 132 has taken a fork[0m
+[1;33m61 90 has taken a fork[0m
+[1;32m61 90 is eating[0m
+[1;33m61 132 has taken a fork[0m
+[1;32m61 132 is eating[0m
+[1;33m61 120 has taken a fork[0m
+[1;33m61 120 has taken a fork[0m
+[1;33m61 130 has taken a fork[0m
+[1;33m61 130 has taken a fork[0m
+[1;33m61 92 has taken a fork[0m
+[1;33m61 92 has taken a fork[0m
+[1;33m61 94 has taken a fork[0m
+[1;33m61 86 has taken a fork[0m
+[1;33m61 86 has taken a fork[0m
+[1;33m61 112 has taken a fork[0m
+[1;33m61 122 has taken a fork[0m
+[1;33m61 122 has taken a fork[0m
+[1;33m61 84 has taken a fork[0m
+[1;32m61 122 is eating[0m
+[1;33m61 116 has taken a fork[0m
+[1;33m61 84 has taken a fork[0m
+[1;32m61 84 is eating[0m
+[1;33m61 116 has taken a fork[0m
+[1;32m61 60 is eating[0m
+[1;32m61 116 is eating[0m
+[1;33m61 136 has taken a fork[0m
+[1;32m61 64 is eating[0m
+[1;33m61 118 has taken a fork[0m
+[1;33m61 118 has taken a fork[0m
+[1;95m61 133 is sleeping[0m
+[1;32m61 118 is eating[0m
+[1;32m61 92 is eating[0m
+[1;32m61 86 is eating[0m
+[1;33m61 112 has taken a fork[0m
+[1;32m61 112 is eating[0m
+[1;95m61 111 is sleeping[0m
+[1;32m61 78 is eating[0m
+[1;95m61 53 is sleeping[0m
+[1;95m61 87 is sleeping[0m
+[1;33m61 106 has taken a fork[0m
+[1;33m61 98 has taken a fork[0m
+[1;33m61 54 has taken a fork[0m
+[1;33m61 54 has taken a fork[0m
+[1;33m61 66 has taken a fork[0m
+[1;32m61 54 is eating[0m
+[1;32m61 76 is eating[0m
+[1;32m61 136 is eating[0m
+[1;32m61 130 is eating[0m
+[1;32m61 120 is eating[0m
+[1;33m61 124 has taken a fork[0m
+[1;33m61 58 has taken a fork[0m
+[1;33m61 58 has taken a fork[0m
+[1;33m61 124 has taken a fork[0m
+[1;32m61 124 is eating[0m
+[1;32m61 58 is eating[0m
+[1;32m61 98 is eating[0m
+[1;32m61 100 is eating[0m
+[1;33m61 114 has taken a fork[0m
+[1;32m61 114 is eating[0m
+[1;33m61 74 has taken a fork[0m
+[1;33m61 74 has taken a fork[0m
+[1;32m61 74 is eating[0m
+[1;33m61 82 has taken a fork[0m
+[1;33m61 82 has taken a fork[0m
+[1;32m61 104 is eating[0m
+[1;32m61 94 is eating[0m
+[1;32m61 82 is eating[0m
+[1;33m61 66 has taken a fork[0m
+[1;32m61 66 is eating[0m
+[1;33m61 106 has taken a fork[0m
+[1;32m61 106 is eating[0m
+[1;95m62 173 is sleeping[0m
+[1;95m62 165 is sleeping[0m
+[1;33m62 164 has taken a fork[0m
+[1;95m62 141 is sleeping[0m
+[1;95m62 175 is sleeping[0m
+[1;33m62 140 has taken a fork[0m
+[1;95m62 191 is sleeping[0m
+[1;95m62 157 is sleeping[0m
+[1;95m62 195 is sleeping[0m
+[1;95m62 179 is sleeping[0m
+[1;95m62 193 is sleeping[0m
+[1;33m62 182 has taken a fork[0m
+[1;33m62 174 has taken a fork[0m
+[1;33m62 174 has taken a fork[0m
+[1;33m62 188 has taken a fork[0m
+[1;33m62 190 has taken a fork[0m
+[1;33m62 190 has taken a fork[0m
+[1;32m62 190 is eating[0m
+[1;95m62 153 is sleeping[0m
+[1;32m62 174 is eating[0m
+[1;95m62 187 is sleeping[0m
+[1;33m62 188 has taken a fork[0m
+[1;32m62 188 is eating[0m
+[1;95m62 147 is sleeping[0m
+[1;95m62 143 is sleeping[0m
+[1;95m62 155 is sleeping[0m
+[1;95m62 149 is sleeping[0m
+[1;95m62 163 is sleeping[0m
+[1;95m62 197 is sleeping[0m
+[1;33m62 172 has taken a fork[0m
+[1;33m62 146 has taken a fork[0m
+[1;95m62 169 is sleeping[0m
+[1;95m62 181 is sleeping[0m
+[1;33m62 154 has taken a fork[0m
+[1;95m62 159 is sleeping[0m
+[1;33m62 156 has taken a fork[0m
+[1;95m62 151 is sleeping[0m
+[1;33m62 156 has taken a fork[0m
+[1;95m62 161 is sleeping[0m
+[1;32m62 156 is eating[0m
+[1;33m62 186 has taken a fork[0m
+[1;33m62 192 has taken a fork[0m
+[1;33m62 152 has taken a fork[0m
+[1;33m62 192 has taken a fork[0m
+[1;32m62 192 is eating[0m
+[1;33m62 152 has taken a fork[0m
+[1;32m62 152 is eating[0m
+[1;95m62 185 is sleeping[0m
+[1;95m62 167 is sleeping[0m
+[1;33m62 196 has taken a fork[0m
+[1;33m62 196 has taken a fork[0m
+[1;32m62 196 is eating[0m
+[1;95m62 171 is sleeping[0m
+[1;33m62 142 has taken a fork[0m
+[1;33m62 142 has taken a fork[0m
+[1;33m62 160 has taken a fork[0m
+[1;33m62 160 has taken a fork[0m
+[1;32m62 160 is eating[0m
+[1;32m62 142 is eating[0m
+[1;95m62 177 is sleeping[0m
+[1;33m62 194 has taken a fork[0m
+[1;33m62 194 has taken a fork[0m
+[1;32m62 194 is eating[0m
+[1;95m62 145 is sleeping[0m
+[1;95m62 139 is sleeping[0m
+[1;33m62 180 has taken a fork[0m
+[1;33m62 180 has taken a fork[0m
+[1;32m62 180 is eating[0m
+[1;95m62 183 is sleeping[0m
+[1;95m62 189 is sleeping[0m
+[1;33m62 148 has taken a fork[0m
+[1;33m62 148 has taken a fork[0m
+[1;32m62 148 is eating[0m
+[1;33m62 178 has taken a fork[0m
+[1;33m62 178 has taken a fork[0m
+[1;32m62 178 is eating[0m
+[1;33m62 150 has taken a fork[0m
+[1;33m62 150 has taken a fork[0m
+[1;32m62 150 is eating[0m
+[1;33m62 162 has taken a fork[0m
+[1;33m62 182 has taken a fork[0m
+[1;32m62 182 is eating[0m
+[1;33m62 164 has taken a fork[0m
+[1;33m62 146 has taken a fork[0m
+[1;33m62 140 has taken a fork[0m
+[1;32m62 164 is eating[0m
+[1;32m62 146 is eating[0m
+[1;33m62 168 has taken a fork[0m
+[1;33m62 162 has taken a fork[0m
+[1;33m62 168 has taken a fork[0m
+[1;32m62 162 is eating[0m
+[1;32m62 168 is eating[0m
+[1;33m62 158 has taken a fork[0m
+[1;33m62 158 has taken a fork[0m
+[1;33m62 186 has taken a fork[0m
+[1;32m62 158 is eating[0m
+[1;32m62 186 is eating[0m
+[1;33m62 166 has taken a fork[0m
+[1;33m62 166 has taken a fork[0m
+[1;32m62 166 is eating[0m
+[1;33m62 172 has taken a fork[0m
+[1;33m62 170 has taken a fork[0m
+[1;32m62 172 is eating[0m
+[1;33m62 170 has taken a fork[0m
+[1;32m62 170 is eating[0m
+[1;33m62 176 has taken a fork[0m
+[1;33m62 176 has taken a fork[0m
+[1;32m62 176 is eating[0m
+[1;33m62 138 has taken a fork[0m
+[1;33m62 138 has taken a fork[0m
+[1;33m62 144 has taken a fork[0m
+[1;33m62 144 has taken a fork[0m
+[1;33m62 184 has taken a fork[0m
+[1;32m62 144 is eating[0m
+[1;33m62 184 has taken a fork[0m
+[1;33m62 154 has taken a fork[0m
+[1;32m62 154 is eating[0m
+[1;32m62 140 is eating[0m
+[1;32m62 184 is eating[0m
+[1;32m62 138 is eating[0m
+[1;36m120 35 is thinking[0m
+[1;36m120 47 is thinking[0m
+[1;36m120 45 is thinking[0m
+[1;36m120 19 is thinking[0m
+[1;95m120 2 is sleeping[0m
+[1;36m120 13 is thinking[0m
+[1;95m120 28 is sleeping[0m
+[1;95m120 44 is sleeping[0m
+[1;95m120 8 is sleeping[0m
+[1;36m120 41 is thinking[0m
+[1;95m120 12 is sleeping[0m
+[1;95m120 4 is sleeping[0m
+[1;36m120 3 is thinking[0m
+[1;33m120 3 has taken a fork[0m
+[1;33m120 3 has taken a fork[0m
+[1;32m120 3 is eating[0m
+[1;95m120 22 is sleeping[0m
+[1;36m120 25 is thinking[0m
+[1;95m120 46 is sleeping[0m
+[1;95m120 32 is sleeping[0m
+[1;95m120 16 is sleeping[0m
+[1;95m120 24 is sleeping[0m
+[1;95m120 42 is sleeping[0m
+[1;36m120 37 is thinking[0m
+[1;95m120 14 is sleeping[0m
+[1;95m120 18 is sleeping[0m
+[1;95m120 199 is sleeping[0m
+[1;36m120 5 is thinking[0m
+[1;95m120 34 is sleeping[0m
+[1;95m120 6 is sleeping[0m
+[1;36m120 43 is thinking[0m
+[1;36m120 31 is thinking[0m
+[1;33m120 31 has taken a fork[0m
+[1;33m120 31 has taken a fork[0m
+[1;32m120 31 is eating[0m
+[1;33m120 43 has taken a fork[0m
+[1;33m120 43 has taken a fork[0m
+[1;32m120 43 is eating[0m
+[1;36m120 1 is thinking[0m
+[1;33m120 1 has taken a fork[0m
+[1;33m120 1 has taken a fork[0m
+[1;32m120 1 is eating[0m
+[1;95m120 38 is sleeping[0m
+[1;95m120 10 is sleeping[0m
+[1;95m120 40 is sleeping[0m
+[1;36m120 29 is thinking[0m
+[1;33m120 29 has taken a fork[0m
+[1;33m120 29 has taken a fork[0m
+[1;95m120 26 is sleeping[0m
+[1;36m120 7 is thinking[0m
+[1;33m120 7 has taken a fork[0m
+[1;33m120 7 has taken a fork[0m
+[1;32m120 7 is eating[0m
+[1;36m120 23 is thinking[0m
+[1;33m120 23 has taken a fork[0m
+[1;33m120 23 has taken a fork[0m
+[1;32m120 23 is eating[0m
+[1;36m120 49 is thinking[0m
+[1;36m120 17 is thinking[0m
+[1;33m120 47 has taken a fork[0m
+[1;33m120 17 has taken a fork[0m
+[1;33m120 17 has taken a fork[0m
+[1;32m120 17 is eating[0m
+[1;33m120 47 has taken a fork[0m
+[1;36m120 9 is thinking[0m
+[1;36m120 27 is thinking[0m
+[1;33m120 9 has taken a fork[0m
+[1;33m120 9 has taken a fork[0m
+[1;36m120 33 is thinking[0m
+[1;33m120 41 has taken a fork[0m
+[1;33m120 35 has taken a fork[0m
+[1;33m120 198 has taken a fork[0m
+[1;33m120 5 has taken a fork[0m
+[1;33m120 198 has taken a fork[0m
+[1;33m120 5 has taken a fork[0m
+[1;33m120 35 has taken a fork[0m
+[1;32m120 5 is eating[0m
+[1;32m120 35 is eating[0m
+[1;95m120 36 is sleeping[0m
+[1;95m120 20 is sleeping[0m
+[1;33m120 37 has taken a fork[0m
+[1;33m120 37 has taken a fork[0m
+[1;32m120 37 is eating[0m
+[1;33m120 25 has taken a fork[0m
+[1;33m120 25 has taken a fork[0m
+[1;36m120 15 is thinking[0m
+[1;36m120 21 is thinking[0m
+[1;33m120 15 has taken a fork[0m
+[1;33m120 15 has taken a fork[0m
+[1;32m120 15 is eating[0m
+[1;32m120 47 is eating[0m
+[1;33m120 21 has taken a fork[0m
+[1;33m120 21 has taken a fork[0m
+[1;32m120 21 is eating[0m
+[1;95m120 48 is sleeping[0m
+[1;95m120 30 is sleeping[0m
+[1;36m120 11 is thinking[0m
+[1;33m120 27 has taken a fork[0m
+[1;33m120 27 has taken a fork[0m
+[1;32m120 27 is eating[0m
+[1;33m120 45 has taken a fork[0m
+[1;33m120 45 has taken a fork[0m
+[1;32m120 45 is eating[0m
+[1;33m120 33 has taken a fork[0m
+[1;32m120 29 is eating[0m
+[1;33m120 33 has taken a fork[0m
+[1;32m120 33 is eating[0m
+[1;33m120 11 has taken a fork[0m
+[1;33m120 13 has taken a fork[0m
+[1;33m120 11 has taken a fork[0m
+[1;33m120 13 has taken a fork[0m
+[1;32m120 11 is eating[0m
+[1;32m120 13 is eating[0m
+[1;32m120 198 is eating[0m
+[1;33m120 41 has taken a fork[0m
+[1;32m120 41 is eating[0m
+[1;36m120 39 is thinking[0m
+[1;32m120 25 is eating[0m
+[1;33m120 19 has taken a fork[0m
+[1;33m120 19 has taken a fork[0m
+[1;32m120 19 is eating[0m
+[1;33m120 39 has taken a fork[0m
+[1;33m120 39 has taken a fork[0m
+[1;32m120 39 is eating[0m
+[1;32m120 9 is eating[0m
+[1;95m121 132 is sleeping[0m
+[1;36m121 83 is thinking[0m
+[1;36m121 71 is thinking[0m
+[1;36m121 77 is thinking[0m
+[1;36m121 121 is thinking[0m
+[1;95m121 84 is sleeping[0m
+[1;95m121 52 is sleeping[0m
+[1;36m121 65 is thinking[0m
+[1;36m121 113 is thinking[0m
+[1;95m121 110 is sleeping[0m
+[1;95m121 118 is sleeping[0m
+[1;36m121 53 is thinking[0m
+[1;36m121 95 is thinking[0m
+[1;36m121 117 is thinking[0m
+[1;36m121 109 is thinking[0m
+[1;33m121 109 has taken a fork[0m
+[1;33m121 109 has taken a fork[0m
+[1;32m121 109 is eating[0m
+[1;95m121 54 is sleeping[0m
+[1;95m121 130 is sleeping[0m
+[1;36m121 133 is thinking[0m
+[1;95m121 90 is sleeping[0m
+[1;36m121 103 is thinking[0m
+[1;36m121 97 is thinking[0m
+[1;95m121 62 is sleeping[0m
+[1;95m121 70 is sleeping[0m
+[1;36m121 93 is thinking[0m
+[1;95m121 78 is sleeping[0m
+[1;95m121 80 is sleeping[0m
+[1;36m121 123 is thinking[0m
+[1;95m121 64 is sleeping[0m
+[1;95m121 96 is sleeping[0m
+[1;36m121 101 is thinking[0m
+[1;95m121 68 is sleeping[0m
+[1;95m121 116 is sleeping[0m
+[1;36m121 55 is thinking[0m
+[1;36m121 125 is thinking[0m
+[1;36m121 69 is thinking[0m
+[1;33m121 69 has taken a fork[0m
+[1;33m121 69 has taken a fork[0m
+[1;32m121 69 is eating[0m
+[1;95m121 86 is sleeping[0m
+[1;36m121 73 is thinking[0m
+[1;95m121 126 is sleeping[0m
+[1;95m121 98 is sleeping[0m
+[1;95m121 74 is sleeping[0m
+[1;95m121 122 is sleeping[0m
+[1;36m121 119 is thinking[0m
+[1;95m121 124 is sleeping[0m
+[1;36m121 107 is thinking[0m
+[1;33m121 107 has taken a fork[0m
+[1;36m121 67 is thinking[0m
+[1;33m121 67 has taken a fork[0m
+[1;36m121 129 is thinking[0m
+[1;33m121 129 has taken a fork[0m
+[1;33m121 129 has taken a fork[0m
+[1;32m121 129 is eating[0m
+[1;95m121 58 is sleeping[0m
+[1;36m121 61 is thinking[0m
+[1;36m121 111 is thinking[0m
+[1;33m121 111 has taken a fork[0m
+[1;33m121 111 has taken a fork[0m
+[1;32m121 111 is eating[0m
+[1;36m121 51 is thinking[0m
+[1;33m121 51 has taken a fork[0m
+[1;36m121 131 is thinking[0m
+[1;33m121 131 has taken a fork[0m
+[1;33m121 131 has taken a fork[0m
+[1;32m121 131 is eating[0m
+[1;95m121 102 is sleeping[0m
+[1;36m121 75 is thinking[0m
+[1;36m121 115 is thinking[0m
+[1;95m121 114 is sleeping[0m
+[1;95m121 120 is sleeping[0m
+[1;36m121 135 is thinking[0m
+[1;36m121 57 is thinking[0m
+[1;36m121 89 is thinking[0m
+[1;33m121 57 has taken a fork[0m
+[1;33m121 89 has taken a fork[0m
+[1;33m121 135 has taken a fork[0m
+[1;36m121 85 is thinking[0m
+[1;33m121 135 has taken a fork[0m
+[1;32m121 135 is eating[0m
+[1;33m121 85 has taken a fork[0m
+[1;33m121 85 has taken a fork[0m
+[1;32m121 85 is eating[0m
+[1;95m121 88 is sleeping[0m
+[1;95m121 94 is sleeping[0m
+[1;36m121 59 is thinking[0m
+[1;36m121 79 is thinking[0m
+[1;33m121 79 has taken a fork[0m
+[1;33m121 79 has taken a fork[0m
+[1;32m121 79 is eating[0m
+[1;95m121 82 is sleeping[0m
+[1;33m121 59 has taken a fork[0m
+[1;33m121 59 has taken a fork[0m
+[1;32m121 59 is eating[0m
+[1;36m121 105 is thinking[0m
+[1;33m121 105 has taken a fork[0m
+[1;33m121 105 has taken a fork[0m
+[1;32m121 105 is eating[0m
+[1;95m121 66 is sleeping[0m
+[1;95m121 112 is sleeping[0m
+[1;33m121 71 has taken a fork[0m
+[1;33m121 83 has taken a fork[0m
+[1;36m121 137 is thinking[0m
+[1;95m121 136 is sleeping[0m
+[1;36m121 91 is thinking[0m
+[1;95m121 108 is sleeping[0m
+[1;33m121 91 has taken a fork[0m
+[1;33m121 91 has taken a fork[0m
+[1;32m121 91 is eating[0m
+[1;95m121 72 is sleeping[0m
+[1;95m121 60 is sleeping[0m
+[1;33m121 117 has taken a fork[0m
+[1;33m121 95 has taken a fork[0m
+[1;36m121 87 is thinking[0m
+[1;33m121 95 has taken a fork[0m
+[1;33m121 87 has taken a fork[0m
+[1;33m121 125 has taken a fork[0m
+[1;33m121 87 has taken a fork[0m
+[1;32m121 87 is eating[0m
+[1;33m121 125 has taken a fork[0m
+[1;32m121 125 is eating[0m
+[1;33m121 97 has taken a fork[0m
+[1;33m121 97 has taken a fork[0m
+[1;32m121 95 is eating[0m
+[1;36m121 81 is thinking[0m
+[1;33m121 123 has taken a fork[0m
+[1;33m121 123 has taken a fork[0m
+[1;32m121 123 is eating[0m
+[1;33m121 101 has taken a fork[0m
+[1;33m121 101 has taken a fork[0m
+[1;32m121 101 is eating[0m
+[1;36m121 99 is thinking[0m
+[1;33m121 61 has taken a fork[0m
+[1;33m121 61 has taken a fork[0m
+[1;33m121 119 has taken a fork[0m
+[1;32m121 61 is eating[0m
+[1;33m121 75 has taken a fork[0m
+[1;33m121 119 has taken a fork[0m
+[1;32m121 119 is eating[0m
+[1;33m121 75 has taken a fork[0m
+[1;32m121 75 is eating[0m
+[1;33m121 115 has taken a fork[0m
+[1;95m121 134 is sleeping[0m
+[1;33m121 115 has taken a fork[0m
+[1;33m121 93 has taken a fork[0m
+[1;33m121 93 has taken a fork[0m
+[1;33m121 103 has taken a fork[0m
+[1;32m121 93 is eating[0m
+[1;36m121 127 is thinking[0m
+[1;95m121 104 is sleeping[0m
+[1;33m121 49 has taken a fork[0m
+[1;33m121 51 has taken a fork[0m
+[1;33m121 55 has taken a fork[0m
+[1;32m121 51 is eating[0m
+[1;33m121 57 has taken a fork[0m
+[1;32m121 57 is eating[0m
+[1;33m121 55 has taken a fork[0m
+[1;32m121 55 is eating[0m
+[1;95m121 56 is sleeping[0m
+[1;95m121 76 is sleeping[0m
+[1;33m121 67 has taken a fork[0m
+[1;33m121 71 has taken a fork[0m
+[1;33m121 77 has taken a fork[0m
+[1;33m121 77 has taken a fork[0m
+[1;33m121 83 has taken a fork[0m
+[1;32m121 83 is eating[0m
+[1;32m121 77 is eating[0m
+[1;33m121 121 has taken a fork[0m
+[1;33m121 121 has taken a fork[0m
+[1;32m121 121 is eating[0m
+[1;33m121 65 has taken a fork[0m
+[1;33m121 65 has taken a fork[0m
+[1;32m121 65 is eating[0m
+[1;33m121 133 has taken a fork[0m
+[1;33m121 133 has taken a fork[0m
+[1;95m121 128 is sleeping[0m
+[1;33m121 53 has taken a fork[0m
+[1;33m121 53 has taken a fork[0m
+[1;32m121 53 is eating[0m
+[1;33m121 117 has taken a fork[0m
+[1;32m121 117 is eating[0m
+[1;95m121 100 is sleeping[0m
+[1;33m121 73 has taken a fork[0m
+[1;33m121 73 has taken a fork[0m
+[1;33m121 81 has taken a fork[0m
+[1;32m121 97 is eating[0m
+[1;33m121 81 has taken a fork[0m
+[1;32m121 81 is eating[0m
+[1;95m121 92 is sleeping[0m
+[1;33m121 99 has taken a fork[0m
+[1;33m121 89 has taken a fork[0m
+[1;32m121 89 is eating[0m
+[1;33m121 99 has taken a fork[0m
+[1;32m121 99 is eating[0m
+[1;32m121 115 is eating[0m
+[1;33m121 127 has taken a fork[0m
+[1;33m121 127 has taken a fork[0m
+[1;33m121 107 has taken a fork[0m
+[1;32m121 107 is eating[0m
+[1;95m121 106 is sleeping[0m
+[1;32m121 71 is eating[0m
+[1;36m121 63 is thinking[0m
+[1;33m121 63 has taken a fork[0m
+[1;33m121 63 has taken a fork[0m
+[1;32m121 133 is eating[0m
+[1;32m121 63 is eating[0m
+[1;32m121 73 is eating[0m
+[1;33m121 103 has taken a fork[0m
+[1;32m121 103 is eating[0m
+[1;33m121 49 has taken a fork[0m
+[1;32m121 49 is eating[0m
+[1;32m121 67 is eating[0m
+[1;32m121 127 is eating[0m
+[1;33m121 113 has taken a fork[0m
+[1;33m121 113 has taken a fork[0m
+[1;32m121 113 is eating[0m
+[1;95m121 50 is sleeping[0m
+[1;95m122 194 is sleeping[0m
+[1;36m122 159 is thinking[0m
+[1;95m122 196 is sleeping[0m
+[1;95m122 140 is sleeping[0m
+[1;36m122 145 is thinking[0m
+[1;36m122 151 is thinking[0m
+[1;95m122 180 is sleeping[0m
+[1;36m122 185 is thinking[0m
+[1;36m122 149 is thinking[0m
+[1;36m122 167 is thinking[0m
+[1;36m122 163 is thinking[0m
+[1;36m122 147 is thinking[0m
+[1;36m122 175 is thinking[0m
+[1;95m122 162 is sleeping[0m
+[1;36m122 143 is thinking[0m
+[1;95m122 156 is sleeping[0m
+[1;36m122 195 is thinking[0m
+[1;33m122 195 has taken a fork[0m
+[1;33m122 195 has taken a fork[0m
+[1;32m122 195 is eating[0m
+[1;36m122 179 is thinking[0m
+[1;33m122 179 has taken a fork[0m
+[1;95m122 154 is sleeping[0m
+[1;95m122 178 is sleeping[0m
+[1;36m122 171 is thinking[0m
+[1;33m122 179 has taken a fork[0m
+[1;32m122 179 is eating[0m
+[1;95m122 190 is sleeping[0m
+[1;95m122 142 is sleeping[0m
+[1;36m122 187 is thinking[0m
+[1;95m122 188 is sleeping[0m
+[1;33m122 187 has taken a fork[0m
+[1;95m122 186 is sleeping[0m
+[1;33m122 187 has taken a fork[0m
+[1;32m122 187 is eating[0m
+[1;95m122 150 is sleeping[0m
+[1;36m122 169 is thinking[0m
+[1;36m122 153 is thinking[0m
+[1;33m122 159 has taken a fork[0m
+[1;33m122 159 has taken a fork[0m
+[1;32m122 159 is eating[0m
+[1;33m122 145 has taken a fork[0m
+[1;36m122 157 is thinking[0m
+[1;33m122 157 has taken a fork[0m
+[1;33m122 157 has taken a fork[0m
+[1;32m122 157 is eating[0m
+[1;33m122 145 has taken a fork[0m
+[1;32m122 145 is eating[0m
+[1;33m122 149 has taken a fork[0m
+[1;95m122 138 is sleeping[0m
+[1;95m122 160 is sleeping[0m
+[1;36m122 165 is thinking[0m
+[1;36m122 173 is thinking[0m
+[1;33m122 173 has taken a fork[0m
+[1;36m122 139 is thinking[0m
+[1;36m122 191 is thinking[0m
+[1;33m122 191 has taken a fork[0m
+[1;33m122 191 has taken a fork[0m
+[1;33m122 139 has taken a fork[0m
+[1;32m122 191 is eating[0m
+[1;33m122 139 has taken a fork[0m
+[1;32m122 139 is eating[0m
+[1;95m122 176 is sleeping[0m
+[1;95m122 148 is sleeping[0m
+[1;33m122 143 has taken a fork[0m
+[1;95m122 164 is sleeping[0m
+[1;36m122 161 is thinking[0m
+[1;33m122 161 has taken a fork[0m
+[1;33m122 161 has taken a fork[0m
+[1;32m122 161 is eating[0m
+[1;33m122 143 has taken a fork[0m
+[1;32m122 143 is eating[0m
+[1;33m122 167 has taken a fork[0m
+[1;95m122 166 is sleeping[0m
+[1;33m122 167 has taken a fork[0m
+[1;32m122 167 is eating[0m
+[1;95m122 184 is sleeping[0m
+[1;95m122 182 is sleeping[0m
+[1;36m122 183 is thinking[0m
+[1;33m122 183 has taken a fork[0m
+[1;33m122 183 has taken a fork[0m
+[1;32m122 183 is eating[0m
+[1;95m122 172 is sleeping[0m
+[1;36m122 181 is thinking[0m
+[1;36m122 189 is thinking[0m
+[1;95m122 146 is sleeping[0m
+[1;33m122 181 has taken a fork[0m
+[1;33m122 181 has taken a fork[0m
+[1;32m122 181 is eating[0m
+[1;33m122 189 has taken a fork[0m
+[1;33m122 189 has taken a fork[0m
+[1;32m122 189 is eating[0m
+[1;95m122 192 is sleeping[0m
+[1;36m122 197 is thinking[0m
+[1;36m122 141 is thinking[0m
+[1;33m122 141 has taken a fork[0m
+[1;33m122 141 has taken a fork[0m
+[1;32m122 141 is eating[0m
+[1;95m122 158 is sleeping[0m
+[1;33m122 137 has taken a fork[0m
+[1;33m122 137 has taken a fork[0m
+[1;32m122 137 is eating[0m
+[1;95m122 144 is sleeping[0m
+[1;33m122 185 has taken a fork[0m
+[1;33m122 185 has taken a fork[0m
+[1;32m122 185 is eating[0m
+[1;95m122 168 is sleeping[0m
+[1;33m122 153 has taken a fork[0m
+[1;33m122 153 has taken a fork[0m
+[1;32m122 153 is eating[0m
+[1;95m122 174 is sleeping[0m
+[1;33m122 151 has taken a fork[0m
+[1;33m122 151 has taken a fork[0m
+[1;32m122 151 is eating[0m
+[1;95m122 152 is sleeping[0m
+[1;33m122 147 has taken a fork[0m
+[1;33m122 149 has taken a fork[0m
+[1;32m122 149 is eating[0m
+[1;33m122 163 has taken a fork[0m
+[1;33m122 163 has taken a fork[0m
+[1;32m122 163 is eating[0m
+[1;33m122 147 has taken a fork[0m
+[1;32m122 147 is eating[0m
+[1;95m122 170 is sleeping[0m
+[1;36m122 193 is thinking[0m
+[1;33m122 193 has taken a fork[0m
+[1;33m122 193 has taken a fork[0m
+[1;32m122 193 is eating[0m
+[1;36m122 177 is thinking[0m
+[1;36m122 155 is thinking[0m
+[1;33m122 155 has taken a fork[0m
+[1;33m122 155 has taken a fork[0m
+[1;32m122 155 is eating[0m
+[1;33m122 175 has taken a fork[0m
+[1;33m122 175 has taken a fork[0m
+[1;32m122 175 is eating[0m
+[1;33m122 169 has taken a fork[0m
+[1;33m122 169 has taken a fork[0m
+[1;32m122 169 is eating[0m
+[1;33m122 177 has taken a fork[0m
+[1;33m122 177 has taken a fork[0m
+[1;32m122 177 is eating[0m
+[1;33m122 171 has taken a fork[0m
+[1;33m122 173 has taken a fork[0m
+[1;32m122 173 is eating[0m
+[1;33m122 171 has taken a fork[0m
+[1;32m122 171 is eating[0m
+[1;33m122 165 has taken a fork[0m
+[1;33m122 165 has taken a fork[0m
+[1;32m122 165 is eating[0m
+[1;36m180 199 is thinking[0m
+[1;95m180 1 is sleeping[0m
+[1;95m180 43 is sleeping[0m
+[1;36m180 24 is thinking[0m
+[1;36m180 20 is thinking[0m
+[1;95m180 33 is sleeping[0m
+[1;95m180 35 is sleeping[0m
+[1;95m180 23 is sleeping[0m
+[1;95m180 29 is sleeping[0m
+[1;36m180 6 is thinking[0m
+[1;95m180 31 is sleeping[0m
+[1;95m180 11 is sleeping[0m
+[1;36m180 32 is thinking[0m
+[1;36m180 42 is thinking[0m
+[1;95m180 9 is sleeping[0m
+[1;36m180 4 is thinking[0m
+[1;33m180 4 has taken a fork[0m
+[1;36m180 26 is thinking[0m
+[1;95m180 25 is sleeping[0m
+[1;36m180 10 is thinking[0m
+[1;95m180 15 is sleeping[0m
+[1;95m180 37 is sleeping[0m
+[1;36m180 8 is thinking[0m
+[1;33m180 8 has taken a fork[0m
+[1;33m180 8 has taken a fork[0m
+[1;32m180 8 is eating[0m
+[1;36m180 18 is thinking[0m
+[1;95m180 39 is sleeping[0m
+[1;95m180 45 is sleeping[0m
+[1;95m180 3 is sleeping[0m
+[1;36m180 38 is thinking[0m
+[1;33m180 38 has taken a fork[0m
+[1;33m180 38 has taken a fork[0m
+[1;32m180 38 is eating[0m
+[1;36m180 12 is thinking[0m
+[1;33m180 12 has taken a fork[0m
+[1;33m180 12 has taken a fork[0m
+[1;32m180 12 is eating[0m
+[1;95m180 198 is sleeping[0m
+[1;36m180 34 is thinking[0m
+[1;33m180 34 has taken a fork[0m
+[1;36m180 30 is thinking[0m
+[1;33m180 34 has taken a fork[0m
+[1;32m180 34 is eating[0m
+[1;33m180 30 has taken a fork[0m
+[1;33m180 30 has taken a fork[0m
+[1;32m180 30 is eating[0m
+[1;36m180 22 is thinking[0m
+[1;33m180 22 has taken a fork[0m
+[1;33m180 22 has taken a fork[0m
+[1;32m180 22 is eating[0m
+[1;36m180 44 is thinking[0m
+[1;33m180 44 has taken a fork[0m
+[1;33m180 44 has taken a fork[0m
+[1;32m180 44 is eating[0m
+[1;36m180 16 is thinking[0m
+[1;36m180 28 is thinking[0m
+[1;33m180 28 has taken a fork[0m
+[1;33m180 28 has taken a fork[0m
+[1;32m180 28 is eating[0m
+[1;36m180 14 is thinking[0m
+[1;33m180 14 has taken a fork[0m
+[1;33m180 14 has taken a fork[0m
+[1;32m180 14 is eating[0m
+[1;95m180 41 is sleeping[0m
+[1;95m180 19 is sleeping[0m
+[1;95m180 17 is sleeping[0m
+[1;33m180 199 has taken a fork[0m
+[1;95m180 5 is sleeping[0m
+[1;33m180 199 has taken a fork[0m
+[1;33m180 24 has taken a fork[0m
+[1;33m180 24 has taken a fork[0m
+[1;32m180 199 is eating[0m
+[1;32m181 24 is eating[0m
+[1;33m181 6 has taken a fork[0m
+[1;33m181 6 has taken a fork[0m
+[1;32m181 6 is eating[0m
+[1;36m180 40 is thinking[0m
+[1;33m181 32 has taken a fork[0m
+[1;33m181 40 has taken a fork[0m
+[1;33m181 40 has taken a fork[0m
+[1;32m181 40 is eating[0m
+[1;33m181 32 has taken a fork[0m
+[1;32m181 32 is eating[0m
+[1;36m180 48 is thinking[0m
+[1;33m181 4 has taken a fork[0m
+[1;32m181 4 is eating[0m
+[1;95m180 27 is sleeping[0m
+[1;33m181 20 has taken a fork[0m
+[1;33m181 20 has taken a fork[0m
+[1;32m181 20 is eating[0m
+[1;36m180 2 is thinking[0m
+[1;33m181 16 has taken a fork[0m
+[1;33m181 16 has taken a fork[0m
+[1;32m181 16 is eating[0m
+[1;95m180 13 is sleeping[0m
+[1;36m180 46 is thinking[0m
+[1;33m181 42 has taken a fork[0m
+[1;36m180 36 is thinking[0m
+[1;33m181 42 has taken a fork[0m
+[1;33m181 46 has taken a fork[0m
+[1;32m181 42 is eating[0m
+[1;33m181 36 has taken a fork[0m
+[1;33m181 10 has taken a fork[0m
+[1;33m181 10 has taken a fork[0m
+[1;33m181 18 has taken a fork[0m
+[1;32m181 10 is eating[0m
+[1;33m181 18 has taken a fork[0m
+[1;32m181 18 is eating[0m
+[1;95m180 7 is sleeping[0m
+[1;95m180 21 is sleeping[0m
+[1;95m180 47 is sleeping[0m
+[1;33m181 2 has taken a fork[0m
+[1;33m181 2 has taken a fork[0m
+[1;32m181 2 is eating[0m
+[1;33m181 26 has taken a fork[0m
+[1;33m181 26 has taken a fork[0m
+[1;32m181 26 is eating[0m
+[1;33m181 46 has taken a fork[0m
+[1;33m181 36 has taken a fork[0m
+[1;32m181 36 is eating[0m
+[1;33m181 197 has taken a fork[0m
+[1;33m181 197 has taken a fork[0m
+[1;32m181 197 is eating[0m
+[1;32m181 46 is eating[0m
+[1;36m181 126 is thinking[0m
+[1;36m181 58 is thinking[0m
+[1;36m181 60 is thinking[0m
+[1;95m181 73 is sleeping[0m
+[1;95m181 57 is sleeping[0m
+[1;36m181 128 is thinking[0m
+[1;95m181 49 is sleeping[0m
+[1;95m181 133 is sleeping[0m
+[1;95m181 71 is sleeping[0m
+[1;36m181 82 is thinking[0m
+[1;36m181 108 is thinking[0m
+[1;36m181 96 is thinking[0m
+[1;33m181 108 has taken a fork[0m
+[1;36m181 130 is thinking[0m
+[1;95m181 93 is sleeping[0m
+[1;36m181 88 is thinking[0m
+[1;95m181 101 is sleeping[0m
+[1;36m181 50 is thinking[0m
+[1;95m181 81 is sleeping[0m
+[1;36m181 54 is thinking[0m
+[1;95m181 75 is sleeping[0m
+[1;36m181 132 is thinking[0m
+[1;95m181 91 is sleeping[0m
+[1;36m181 80 is thinking[0m
+[1;95m181 125 is sleeping[0m
+[1;36m181 64 is thinking[0m
+[1;95m181 63 is sleeping[0m
+[1;95m181 99 is sleeping[0m
+[1;36m181 102 is thinking[0m
+[1;95m181 55 is sleeping[0m
+[1;95m181 113 is sleeping[0m
+[1;33m181 102 has taken a fork[0m
+[1;33m181 102 has taken a fork[0m
+[1;32m181 102 is eating[0m
+[1;36m181 114 is thinking[0m
+[1;95m181 51 is sleeping[0m
+[1;95m181 97 is sleeping[0m
+[1;36m181 134 is thinking[0m
+[1;36m181 136 is thinking[0m
+[1;95m181 87 is sleeping[0m
+[1;36m181 62 is thinking[0m
+[1;36m181 90 is thinking[0m
+[1;95m181 121 is sleeping[0m
+[1;33m181 90 has taken a fork[0m
+[1;33m181 62 has taken a fork[0m
+[1;36m181 66 is thinking[0m
+[1;33m181 66 has taken a fork[0m
+[1;95m181 79 is sleeping[0m
+[1;95m181 115 is sleeping[0m
+[1;95m181 65 is sleeping[0m
+[1;95m181 95 is sleeping[0m
+[1;36m181 112 is thinking[0m
+[1;33m181 112 has taken a fork[0m
+[1;95m181 59 is sleeping[0m
+[1;36m181 52 is thinking[0m
+[1;36m181 56 is thinking[0m
+[1;36m181 70 is thinking[0m
+[1;33m181 70 has taken a fork[0m
+[1;95m181 119 is sleeping[0m
+[1;36m181 124 is thinking[0m
+[1;36m181 68 is thinking[0m
+[1;36m181 78 is thinking[0m
+[1;36m181 86 is thinking[0m
+[1;33m181 86 has taken a fork[0m
+[1;33m181 78 has taken a fork[0m
+[1;95m181 69 is sleeping[0m
+[1;95m181 89 is sleeping[0m
+[1;95m181 61 is sleeping[0m
+[1;36m181 116 is thinking[0m
+[1;95m181 117 is sleeping[0m
+[1;95m181 83 is sleeping[0m
+[1;33m181 116 has taken a fork[0m
+[1;33m181 116 has taken a fork[0m
+[1;32m181 116 is eating[0m
+[1;36m181 74 is thinking[0m
+[1;33m181 74 has taken a fork[0m
+[1;33m181 74 has taken a fork[0m
+[1;95m181 129 is sleeping[0m
+[1;36m181 76 is thinking[0m
+[1;33m181 76 has taken a fork[0m
+[1;33m181 76 has taken a fork[0m
+[1;32m181 76 is eating[0m
+[1;36m181 106 is thinking[0m
+[1;95m181 105 is sleeping[0m
+[1;95m181 127 is sleeping[0m
+[1;36m181 110 is thinking[0m
+[1;95m181 109 is sleeping[0m
+[1;33m181 110 has taken a fork[0m
+[1;33m181 110 has taken a fork[0m
+[1;32m181 110 is eating[0m
+[1;33m181 60 has taken a fork[0m
+[1;36m181 118 is thinking[0m
+[1;33m181 118 has taken a fork[0m
+[1;36m181 100 is thinking[0m
+[1;33m181 100 has taken a fork[0m
+[1;33m181 60 has taken a fork[0m
+[1;32m181 60 is eating[0m
+[1;33m181 128 has taken a fork[0m
+[1;33m181 128 has taken a fork[0m
+[1;36m181 122 is thinking[0m
+[1;33m181 88 has taken a fork[0m
+[1;33m181 122 has taken a fork[0m
+[1;33m181 130 has taken a fork[0m
+[1;95m181 123 is sleeping[0m
+[1;33m181 122 has taken a fork[0m
+[1;32m181 122 is eating[0m
+[1;33m181 88 has taken a fork[0m
+[1;32m181 88 is eating[0m
+[1;33m181 54 has taken a fork[0m
+[1;33m181 54 has taken a fork[0m
+[1;32m181 54 is eating[0m
+[1;33m181 108 has taken a fork[0m
+[1;95m181 107 is sleeping[0m
+[1;33m181 134 has taken a fork[0m
+[1;95m181 111 is sleeping[0m
+[1;33m181 134 has taken a fork[0m
+[1;95m181 135 is sleeping[0m
+[1;32m181 134 is eating[0m
+[1;33m181 70 has taken a fork[0m
+[1;32m181 70 is eating[0m
+[1;33m181 90 has taken a fork[0m
+[1;33m181 82 has taken a fork[0m
+[1;33m181 52 has taken a fork[0m
+[1;33m181 82 has taken a fork[0m
+[1;33m181 52 has taken a fork[0m
+[1;33m181 78 has taken a fork[0m
+[1;32m181 52 is eating[0m
+[1;32m181 78 is eating[0m
+[1;95m181 53 is sleeping[0m
+[1;95m181 77 is sleeping[0m
+[1;95m181 85 is sleeping[0m
+[1;33m181 126 has taken a fork[0m
+[1;95m181 131 is sleeping[0m
+[1;33m181 126 has taken a fork[0m
+[1;33m181 48 has taken a fork[0m
+[1;32m181 126 is eating[0m
+[1;33m181 48 has taken a fork[0m
+[1;33m181 118 has taken a fork[0m
+[1;33m181 100 has taken a fork[0m
+[1;32m181 128 is eating[0m
+[1;32m181 118 is eating[0m
+[1;32m181 100 is eating[0m
+[1;36m181 84 is thinking[0m
+[1;36m181 72 is thinking[0m
+[1;33m181 132 has taken a fork[0m
+[1;36m181 104 is thinking[0m
+[1;33m181 132 has taken a fork[0m
+[1;33m181 104 has taken a fork[0m
+[1;33m181 104 has taken a fork[0m
+[1;32m181 132 is eating[0m
+[1;33m181 84 has taken a fork[0m
+[1;33m181 72 has taken a fork[0m
+[1;33m181 72 has taken a fork[0m
+[1;32m181 72 is eating[0m
+[1;33m181 84 has taken a fork[0m
+[1;95m181 103 is sleeping[0m
+[1;32m182 84 is eating[0m
+[1;95m181 67 is sleeping[0m
+[1;33m181 114 has taken a fork[0m
+[1;33m181 66 has taken a fork[0m
+[1;33m182 114 has taken a fork[0m
+[1;32m182 66 is eating[0m
+[1;32m182 114 is eating[0m
+[1;36m181 94 is thinking[0m
+[1;33m182 94 has taken a fork[0m
+[1;33m181 56 has taken a fork[0m
+[1;33m181 112 has taken a fork[0m
+[1;32m182 112 is eating[0m
+[1;33m181 62 has taken a fork[0m
+[1;36m181 120 is thinking[0m
+[1;32m182 62 is eating[0m
+[1;32m181 90 is eating[0m
+[1;32m181 74 is eating[0m
+[1;33m181 86 has taken a fork[0m
+[1;32m182 86 is eating[0m
+[1;32m181 104 is eating[0m
+[1;32m181 108 is eating[0m
+[1;33m181 64 has taken a fork[0m
+[1;33m182 80 has taken a fork[0m
+[1;33m182 64 has taken a fork[0m
+[1;33m182 80 has taken a fork[0m
+[1;36m181 98 is thinking[0m
+[1;36m181 92 is thinking[0m
+[1;33m182 98 has taken a fork[0m
+[1;33m182 98 has taken a fork[0m
+[1;32m182 98 is eating[0m
+[1;33m182 92 has taken a fork[0m
+[1;33m182 92 has taken a fork[0m
+[1;33m181 68 has taken a fork[0m
+[1;33m182 68 has taken a fork[0m
+[1;33m182 56 has taken a fork[0m
+[1;32m182 68 is eating[0m
+[1;33m182 120 has taken a fork[0m
+[1;33m182 120 has taken a fork[0m
+[1;33m182 106 has taken a fork[0m
+[1;32m182 120 is eating[0m
+[1;33m182 106 has taken a fork[0m
+[1;33m181 130 has taken a fork[0m
+[1;32m182 130 is eating[0m
+[1;33m181 96 has taken a fork[0m
+[1;33m181 58 has taken a fork[0m
+[1;33m182 96 has taken a fork[0m
+[1;33m182 58 has taken a fork[0m
+[1;32m182 80 is eating[0m
+[1;32m182 58 is eating[0m
+[1;33m182 94 has taken a fork[0m
+[1;32m182 94 is eating[0m
+[1;32m182 92 is eating[0m
+[1;33m182 124 has taken a fork[0m
+[1;33m182 124 has taken a fork[0m
+[1;32m181 48 is eating[0m
+[1;32m182 56 is eating[0m
+[1;32m182 106 is eating[0m
+[1;32m182 124 is eating[0m
+[1;32m182 64 is eating[0m
+[1;32m181 82 is eating[0m
+[1;33m182 50 has taken a fork[0m
+[1;33m182 50 has taken a fork[0m
+[1;32m182 50 is eating[0m
+[1;32m182 96 is eating[0m
+[1;95m182 149 is sleeping[0m
+[1;36m182 156 is thinking[0m
+[1;95m182 139 is sleeping[0m
+[1;95m182 175 is sleeping[0m
+[1;36m182 182 is thinking[0m
+[1;36m182 140 is thinking[0m
+[1;95m182 183 is sleeping[0m
+[1;33m182 182 has taken a fork[0m
+[1;95m182 177 is sleeping[0m
+[1;36m182 138 is thinking[0m
+[1;33m182 138 has taken a fork[0m
+[1;95m182 167 is sleeping[0m
+[1;95m182 159 is sleeping[0m
+[1;95m182 187 is sleeping[0m
+[1;95m182 179 is sleeping[0m
+[1;36m182 180 is thinking[0m
+[1;95m182 151 is sleeping[0m
+[1;95m182 191 is sleeping[0m
+[1;95m182 193 is sleeping[0m
+[1;95m182 153 is sleeping[0m
+[1;36m182 148 is thinking[0m
+[1;95m182 157 is sleeping[0m
+[1;36m182 170 is thinking[0m
+[1;36m182 160 is thinking[0m
+[1;95m182 181 is sleeping[0m
+[1;95m182 145 is sleeping[0m
+[1;36m182 192 is thinking[0m
+[1;33m182 140 has taken a fork[0m
+[1;95m182 155 is sleeping[0m
+[1;33m182 140 has taken a fork[0m
+[1;32m182 140 is eating[0m
+[1;95m182 143 is sleeping[0m
+[1;33m182 156 has taken a fork[0m
+[1;33m182 156 has taken a fork[0m
+[1;36m182 186 is thinking[0m
+[1;32m182 156 is eating[0m
+[1;36m182 184 is thinking[0m
+[1;36m182 146 is thinking[0m
+[1;36m182 176 is thinking[0m
+[1;33m182 176 has taken a fork[0m
+[1;95m182 137 is sleeping[0m
+[1;33m182 176 has taken a fork[0m
+[1;32m182 176 is eating[0m
+[1;36m182 194 is thinking[0m
+[1;33m182 194 has taken a fork[0m
+[1;33m182 194 has taken a fork[0m
+[1;95m182 173 is sleeping[0m
+[1;36m182 168 is thinking[0m
+[1;32m182 194 is eating[0m
+[1;36m182 172 is thinking[0m
+[1;36m182 162 is thinking[0m
+[1;95m182 147 is sleeping[0m
+[1;95m182 163 is sleeping[0m
+[1;33m182 172 has taken a fork[0m
+[1;36m182 178 is thinking[0m
+[1;36m182 190 is thinking[0m
+[1;36m182 174 is thinking[0m
+[1;33m182 162 has taken a fork[0m
+[1;33m182 174 has taken a fork[0m
+[1;33m182 178 has taken a fork[0m
+[1;33m182 174 has taken a fork[0m
+[1;32m182 174 is eating[0m
+[1;33m182 190 has taken a fork[0m
+[1;33m182 182 has taken a fork[0m
+[1;36m182 142 is thinking[0m
+[1;36m182 196 is thinking[0m
+[1;33m182 178 has taken a fork[0m
+[1;32m182 182 is eating[0m
+[1;32m182 178 is eating[0m
+[1;33m182 142 has taken a fork[0m
+[1;33m182 142 has taken a fork[0m
+[1;32m182 142 is eating[0m
+[1;95m182 189 is sleeping[0m
+[1;95m182 171 is sleeping[0m
+[1;33m182 180 has taken a fork[0m
+[1;33m182 180 has taken a fork[0m
+[1;95m182 169 is sleeping[0m
+[1;95m182 165 is sleeping[0m
+[1;36m182 154 is thinking[0m
+[1;33m182 154 has taken a fork[0m
+[1;33m182 154 has taken a fork[0m
+[1;36m182 152 is thinking[0m
+[1;33m182 152 has taken a fork[0m
+[1;32m182 154 is eating[0m
+[1;95m182 161 is sleeping[0m
+[1;33m182 152 has taken a fork[0m
+[1;32m182 152 is eating[0m
+[1;36m182 144 is thinking[0m
+[1;33m182 144 has taken a fork[0m
+[1;33m182 144 has taken a fork[0m
+[1;32m182 144 is eating[0m
+[1;32m182 180 is eating[0m
+[1;36m182 166 is thinking[0m
+[1;33m182 166 has taken a fork[0m
+[1;33m182 166 has taken a fork[0m
+[1;32m182 166 is eating[0m
+[1;95m182 195 is sleeping[0m
+[1;36m182 158 is thinking[0m
+[1;33m182 158 has taken a fork[0m
+[1;33m182 158 has taken a fork[0m
+[1;33m182 160 has taken a fork[0m
+[1;33m182 160 has taken a fork[0m
+[1;32m182 160 is eating[0m
+[1;33m182 148 has taken a fork[0m
+[1;95m182 141 is sleeping[0m
+[1;32m182 158 is eating[0m
+[1;36m182 150 is thinking[0m
+[1;33m182 150 has taken a fork[0m
+[1;36m182 164 is thinking[0m
+[1;33m182 148 has taken a fork[0m
+[1;33m182 164 has taken a fork[0m
+[1;32m182 148 is eating[0m
+[1;33m182 164 has taken a fork[0m
+[1;33m182 192 has taken a fork[0m
+[1;33m182 192 has taken a fork[0m
+[1;36m182 188 is thinking[0m
+[1;33m182 188 has taken a fork[0m
+[1;33m182 188 has taken a fork[0m
+[1;32m182 188 is eating[0m
+[1;33m182 186 has taken a fork[0m
+[1;33m182 136 has taken a fork[0m
+[1;33m182 136 has taken a fork[0m
+[1;32m182 136 is eating[0m
+[1;32m182 192 is eating[0m
+[1;33m182 138 has taken a fork[0m
+[1;32m182 138 is eating[0m
+[1;33m182 146 has taken a fork[0m
+[1;33m182 146 has taken a fork[0m
+[1;32m182 146 is eating[0m
+[1;95m182 185 is sleeping[0m
+[1;33m182 190 has taken a fork[0m
+[1;32m182 190 is eating[0m
+[1;33m182 172 has taken a fork[0m
+[1;32m182 172 is eating[0m
+[1;33m182 170 has taken a fork[0m
+[1;33m182 170 has taken a fork[0m
+[1;33m182 162 has taken a fork[0m
+[1;32m182 162 is eating[0m
+[1;32m182 170 is eating[0m
+[1;33m182 150 has taken a fork[0m
+[1;32m182 150 is eating[0m
+[1;32m182 164 is eating[0m
+[1;33m182 184 has taken a fork[0m
+[1;33m182 184 has taken a fork[0m
+[1;32m182 184 is eating[0m
+[1;33m182 186 has taken a fork[0m
+[1;32m182 186 is eating[0m
+[1;33m182 168 has taken a fork[0m
+[1;33m182 168 has taken a fork[0m
+[1;32m182 168 is eating[0m
+[1;36m240 1 is thinking[0m
+[1;36m240 45 is thinking[0m
+[1;36m240 31 is thinking[0m
+[1;36m240 5 is thinking[0m
+[1;36m240 41 is thinking[0m
+[1;36m240 25 is thinking[0m
+[1;36m240 29 is thinking[0m
+[1;95m240 44 is sleeping[0m
+[1;36m240 3 is thinking[0m
+[1;95m240 38 is sleeping[0m
+[1;36m240 33 is thinking[0m
+[1;95m240 28 is sleeping[0m
+[1;95m240 8 is sleeping[0m
+[1;95m240 12 is sleeping[0m
+[1;95m240 30 is sleeping[0m
+[1;36m240 9 is thinking[0m
+[1;95m240 34 is sleeping[0m
+[1;36m240 35 is thinking[0m
+[1;36m240 15 is thinking[0m
+[1;36m240 17 is thinking[0m
+[1;36m240 198 is thinking[0m
+[1;95m240 22 is sleeping[0m
+[1;36m240 11 is thinking[0m
+[1;36m240 39 is thinking[0m
+[1;36m240 37 is thinking[0m
+[1;36m240 23 is thinking[0m
+[1;36m240 19 is thinking[0m
+[1;95m240 14 is sleeping[0m
+[1;36m240 43 is thinking[0m
+[1;36m241 47 is thinking[0m
+[1;95m241 36 is sleeping[0m
+[1;36m241 57 is thinking[0m
+[1;95m241 6 is sleeping[0m
+[1;36m241 81 is thinking[0m
+[1;95m241 60 is sleeping[0m
+[1;36m241 111 is thinking[0m
+[1;36m241 127 is thinking[0m
+[1;36m241 93 is thinking[0m
+[1;36m241 65 is thinking[0m
+[1;95m241 26 is sleeping[0m
+[1;36m241 107 is thinking[0m
+[1;36m241 49 is thinking[0m
+[1;95m241 70 is sleeping[0m
+[1;36m241 129 is thinking[0m
+[1;36m241 83 is thinking[0m
+[1;36m241 113 is thinking[0m
+[1;36m241 27 is thinking[0m
+[1;36m241 69 is thinking[0m
+[1;95m241 42 is sleeping[0m
+[1;36m241 133 is thinking[0m
+[1;95m241 132 is sleeping[0m
+[1;36m241 55 is thinking[0m
+[1;95m241 52 is sleeping[0m
+[1;36m241 51 is thinking[0m
+[1;95m241 72 is sleeping[0m
+[1;36m241 101 is thinking[0m
+[1;36m241 115 is thinking[0m
+[1;95m241 46 is sleeping[0m
+[1;95m241 4 is sleeping[0m
+[1;36m241 79 is thinking[0m
+[1;95m241 118 is sleeping[0m
+[1;36m241 131 is thinking[0m
+[1;95m241 197 is sleeping[0m
+[1;36m241 53 is thinking[0m
+[1;95m241 2 is sleeping[0m
+[1;95m241 128 is sleeping[0m
+[1;95m241 88 is sleeping[0m
+[1;95m241 24 is sleeping[0m
+[1;95m241 122 is sleeping[0m
+[1;36m241 61 is thinking[0m
+[1;36m241 63 is thinking[0m
+[1;36m241 91 is thinking[0m
+[1;36m241 135 is thinking[0m
+[1;95m241 54 is sleeping[0m
+[1;95m241 102 is sleeping[0m
+[1;95m241 18 is sleeping[0m
+[1;95m241 76 is sleeping[0m
+[1;95m241 20 is sleeping[0m
+[1;36m241 89 is thinking[0m
+[1;95m241 32 is sleeping[0m
+[1;95m241 116 is sleeping[0m
+[1;95m241 110 is sleeping[0m
+[1;36m241 105 is thinking[0m
+[1;95m241 78 is sleeping[0m
+[1;36m241 7 is thinking[0m
+[1;95m241 126 is sleeping[0m
+[1;36m241 71 is thinking[0m
+[1;95m241 40 is sleeping[0m
+[1;36m241 95 is thinking[0m
+[1;36m241 77 is thinking[0m
+[1;36m241 97 is thinking[0m
+[1;36m241 21 is thinking[0m
+[1;36m241 119 is thinking[0m
+[1;36m241 87 is thinking[0m
+[1;95m241 16 is sleeping[0m
+[1;36m241 99 is thinking[0m
+[1;36m241 73 is thinking[0m
+[1;36m241 109 is thinking[0m
+[1;36m241 59 is thinking[0m
+[1;36m241 75 is thinking[0m
+[1;36m241 13 is thinking[0m
+[1;33m241 196 has taken a fork[0m
+[1;33m241 196 has taken a fork[0m
+[1;32m241 196 is eating[0m
+[1;36m241 121 is thinking[0m
+[1;95m241 134 is sleeping[0m
+[1;36m241 125 is thinking[0m
+[1;95m241 10 is sleeping[0m
+[1;33m241 198 has taken a fork[0m
+[1;33m241 198 has taken a fork[0m
+[1;32m241 198 is eating[0m
+[1;95m241 199 is sleeping[0m
+[1;36m241 123 is thinking[0m
+[1;36m241 117 is thinking[0m
+[1;36m241 85 is thinking[0m
+[1;95m241 100 is sleeping[0m
+[1;95m242 92 is sleeping[0m
+[1;95m242 84 is sleeping[0m
+[1;95m242 74 is sleeping[0m
+[1;36m242 145 is thinking[0m
+[1;95m242 98 is sleeping[0m
+[1;95m242 194 is sleeping[0m
+[1;95m242 90 is sleeping[0m
+[1;95m242 108 is sleeping[0m
+[1;36m242 137 is thinking[0m
+[1;36m242 159 is thinking[0m
+[1;95m242 68 is sleeping[0m
+[1;95m242 188 is sleeping[0m
+[1;95m242 164 is sleeping[0m
+[1;95m242 140 is sleeping[0m
+[1;95m242 142 is sleeping[0m
+[1;36m242 171 is thinking[0m
+[1;95m242 130 is sleeping[0m
+[1;95m242 104 is sleeping[0m
+[1;36m242 189 is thinking[0m
+[1;95m242 124 is sleeping[0m
+[1;36m242 153 is thinking[0m
+[1;36m242 165 is thinking[0m
+[1;36m242 187 is thinking[0m
+[1;95m242 138 is sleeping[0m
+[1;95m242 64 is sleeping[0m
+[1;95m242 66 is sleeping[0m
+[1;95m242 192 is sleeping[0m
+[1;36m242 161 is thinking[0m
+[1;36m242 185 is thinking[0m
+[1;95m242 166 is sleeping[0m
+[1;95m242 170 is sleeping[0m
+[1;36m242 175 is thinking[0m
+[1;36m242 181 is thinking[0m
+[1;36m242 67 is thinking[0m
+[1;95m242 184 is sleeping[0m
+[1;36m242 143 is thinking[0m
+[1;95m242 186 is sleeping[0m
+[1;95m242 162 is sleeping[0m
+[1;95m242 62 is sleeping[0m
+[1;95m242 146 is sleeping[0m
+[1;95m242 152 is sleeping[0m
+[1;95m242 160 is sleeping[0m
+[1;95m242 96 is sleeping[0m
+[1;36m242 157 is thinking[0m
+[1;36m242 103 is thinking[0m
+[1;95m242 58 is sleeping[0m
+[1;95m242 94 is sleeping[0m
+[1;95m242 150 is sleeping[0m
+[1;95m242 114 is sleeping[0m
+[1;36m242 177 is thinking[0m
+[1;36m242 167 is thinking[0m
+[1;95m242 180 is sleeping[0m
+[1;36m242 179 is thinking[0m
+[1;36m242 149 is thinking[0m
+[1;95m242 172 is sleeping[0m
+[1;95m242 190 is sleeping[0m
+[1;95m242 174 is sleeping[0m
+[1;95m242 168 is sleeping[0m
+[1;36m242 169 is thinking[0m
+[1;95m242 50 is sleeping[0m
+[1;95m242 48 is sleeping[0m
+[1;95m242 106 is sleeping[0m
+[1;95m242 154 is sleeping[0m
+[1;95m242 144 is sleeping[0m
+[1;36m242 163 is thinking[0m
+[1;95m242 80 is sleeping[0m
+[1;36m242 139 is thinking[0m
+[1;95m242 156 is sleeping[0m
+[1;36m242 141 is thinking[0m
+[1;95m242 158 is sleeping[0m
+[1;95m242 176 is sleeping[0m
+[1;95m242 178 is sleeping[0m
+[1;36m242 147 is thinking[0m
+[1;95m242 56 is sleeping[0m
+[1;36m242 183 is thinking[0m
+[1;36m242 191 is thinking[0m
+[1;36m242 173 is thinking[0m
+[1;95m242 148 is sleeping[0m
+[1;95m242 120 is sleeping[0m
+[1;36m242 151 is thinking[0m
+[1;36m242 155 is thinking[0m
+[1;95m242 86 is sleeping[0m
+[1;95m242 136 is sleeping[0m
+[1;95m242 112 is sleeping[0m
+[1;36m242 195 is thinking[0m
+[1;95m242 182 is sleeping[0m
+[1;95m242 82 is sleeping[0m
+[1;36m242 193 is thinking[0m
+[1;36m300 22 is thinking[0m
+[1;36m300 8 is thinking[0m
+[1;36m300 30 is thinking[0m
+[1;36m300 34 is thinking[0m
+[1;36m300 12 is thinking[0m
+[1;36m300 14 is thinking[0m
+[1;36m300 38 is thinking[0m
+[1;36m300 44 is thinking[0m
+[1;36m300 28 is thinking[0m
+[1;36m301 100 is thinking[0m
+[1;36m301 128 is thinking[0m
+[1;36m301 16 is thinking[0m
+[1;36m301 46 is thinking[0m
+[1;36m301 4 is thinking[0m
+[1;36m301 18 is thinking[0m
+[1;95m301 196 is sleeping[0m
+[1;36m301 54 is thinking[0m
+[1;36m301 76 is thinking[0m
+[1;36m301 40 is thinking[0m
+[1;36m301 132 is thinking[0m
+[1;36m301 24 is thinking[0m
+[1;36m301 116 is thinking[0m
+[1;36m301 197 is thinking[0m
+[1;36m301 72 is thinking[0m
+[1;36m301 6 is thinking[0m
+[1;36m301 20 is thinking[0m
+[1;36m301 32 is thinking[0m
+[1;36m301 134 is thinking[0m
+[1;36m301 10 is thinking[0m
+[1;95m301 198 is sleeping[0m
+[1;36m301 88 is thinking[0m
+[1;36m301 110 is thinking[0m
+[1;36m301 126 is thinking[0m
+[1;36m301 52 is thinking[0m
+[1;36m301 2 is thinking[0m
+[1;36m301 70 is thinking[0m
+[1;36m301 78 is thinking[0m
+[1;36m301 118 is thinking[0m
+[1;36m301 42 is thinking[0m
+[1;36m301 26 is thinking[0m
+[1;36m301 122 is thinking[0m
+[1;36m301 102 is thinking[0m
+[1;36m301 36 is thinking[0m
+[1;36m301 60 is thinking[0m
+[1;36m301 199 is thinking[0m
+[1;36m302 168 is thinking[0m
+[1;36m302 56 is thinking[0m
+[1;36m302 162 is thinking[0m
+[1;36m302 158 is thinking[0m
+[1;36m302 152 is thinking[0m
+[1;36m302 104 is thinking[0m
+[1;36m302 166 is thinking[0m
+[1;36m302 170 is thinking[0m
+[1;36m302 50 is thinking[0m
+[1;36m302 96 is thinking[0m
+[1;36m302 66 is thinking[0m
+[1;36m302 184 is thinking[0m
+[1;36m302 114 is thinking[0m
+[1;36m302 164 is thinking[0m
+[1;36m302 144 is thinking[0m
+[1;36m302 112 is thinking[0m
+[1;36m302 48 is thinking[0m
+[1;36m302 120 is thinking[0m
+[1;36m302 148 is thinking[0m
+[1;36m302 64 is thinking[0m
+[1;36m302 182 is thinking[0m
+[1;36m302 86 is thinking[0m
+[1;36m302 146 is thinking[0m
+[1;36m302 136 is thinking[0m
+[1;36m302 192 is thinking[0m
+[1;36m302 58 is thinking[0m
+[1;36m302 138 is thinking[0m
+[1;36m302 150 is thinking[0m
+[1;36m302 172 is thinking[0m
+[1;36m302 180 is thinking[0m
+[1;36m302 176 is thinking[0m
+[1;36m302 94 is thinking[0m
+[1;36m302 178 is thinking[0m
+[1;36m302 80 is thinking[0m
+[1;36m302 142 is thinking[0m
+[1;36m302 82 is thinking[0m
+[1;36m302 186 is thinking[0m
+[1;36m302 124 is thinking[0m
+[1;36m302 174 is thinking[0m
+[1;36m302 98 is thinking[0m
+[1;36m302 106 is thinking[0m
+[1;36m302 130 is thinking[0m
+[1;36m302 108 is thinking[0m
+[1;36m303 188 is thinking[0m
+[1;36m303 154 is thinking[0m
+[1;36m303 140 is thinking[0m
+[1;36m303 90 is thinking[0m
+[1;36m303 156 is thinking[0m
+[1;36m303 68 is thinking[0m
+[1;36m303 160 is thinking[0m
+[1;36m303 92 is thinking[0m
+[1;36m303 194 is thinking[0m
+[1;36m302 84 is thinking[0m
+[1;36m303 74 is thinking[0m
+[1;36m303 190 is thinking[0m
+[1;36m303 62 is thinking[0m
+[1;31m313 1 has died[0m
+[1;36m361 198 is thinking[0m
+[1;36m361 196 is thinking[0m

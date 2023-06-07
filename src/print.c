@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/31 10:39:50 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/06 22:13:05 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/07 13:48:29 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,14 +18,26 @@ void	print_msg(t_philo *philo, char *msg, int i)
 
 	time = get_time() - philo->data->start;
 	pthread_mutex_lock(philo->data->print);
-	if (philo->data->status == 0)
+	if (philo->data->status == 0 && philo->data->done != philo->data->nr_philos)
 	{
+		// if (i == 0)
+		// 	printf("%lu %d %s\n", time, philo->id, msg);
+		// else if (i == 1)
+		// 	printf("%lu %d %s\n", time, philo->id, msg);
+		// else if (i == 2)
+		// 	printf("%lu %d %s\n", time, philo->id, msg);
+		// else if (i == 3)
+		// 	printf("%lu %d %s\n", time, philo->id, msg);
+		// else if (i == 4)
+		// 	printf("%lu %d %s\n", time, philo->id, msg);
+		// else
+		// 	printf("%lu %s\n", time, msg);
 		if (i == 0)
 			printf("\033[1;32m%lu %d %s\033[0m\n", time, philo->id, msg);
 		else if (i == 1)
 			printf("\033[1;33m%lu %d %s\033[0m\n", time, philo->id, msg);
 		else if (i == 2)
-			printf("\033[1;31;5m%lu %d %s\033[0m\n", time, philo->id, msg);
+			printf("\033[1;31m%lu %d %s\033[0m\n", time, philo->id, msg);
 		else if (i == 3)
 			printf("\033[1;95m%lu %d %s\033[0m\n", time, philo->id, msg);
 		else if (i == 4)
