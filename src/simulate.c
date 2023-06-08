@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/07 14:24:23 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/07 20:15:14 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ void	*observe(void *arg)
 			pthread_mutex_unlock(philos[i].eating);
 			i++;
 		}
-		exact_sleep(100);
+		exact_sleep(120);
 		// i = (i + 1) % philos[i].data->nr_philos;
 	}
 	return ((void *) 0);
