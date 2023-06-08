@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/06 22:04:18 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/08 22:36:40 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,15 @@ int				init_forks(t_data *data);
 int				init_philos(t_data *data, t_philo *philos);
 int				init_data(int argc, char **argv, t_data *data);
 int				init(int argc, char **argv, t_data **data, t_philo **philos);
+
+// Input Check functions
+
+int				ft_isdigit(char c);
+int				digit_check(int argc, char **argv);
+int				input_check(int argc, char **argv);
+int				nega_check (int argc, char **argv);
+int				solo_philo(t_data *data, t_philo *philo);
+
 
 //	Utility functions
 
