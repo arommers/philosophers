@@ -6,7 +6,7 @@
 /*   By: adri <adri@student.codam.nl>                 +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/08 17:41:19 by adri          #+#    #+#                 */
-/*   Updated: 2023/06/09 10:52:08 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/09 14:05:06 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,14 +19,14 @@ int ft_isdigit(char c)
     return (0);
 }
 
-int nega_check (int argc, char **argv)
+int size_check(int argc, char **argv)
 {
     int i;
     
     i = 0;
     while (++i < argc)
     {
-        if (ft_atolong(argv[i]) < 0)
+        if (ft_atolong(argv[i]) < 0 || ft_atolong(argv[i]) > INT_MAX)
             return (1);
     }
     return (0);
@@ -77,7 +77,7 @@ int input_check(int argc, char **argv)
 {
     if (argc < 5 || argc > 6)
         return (1);
-    if (nega_check(argc, argv) != 0)
+    if (size_check(argc, argv) != 0)
         return (1);
     if (digit_check(argc, argv) != 0)
         return (1);

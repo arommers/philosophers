@@ -6,20 +6,21 @@
 #    By: arommers <arommers@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2023/05/25 11:09:04 by arommers      #+#    #+#                  #
-#    Updated: 2023/06/08 22:34:18 by adri          ########   odam.nl          #
+#    Updated: 2023/06/09 16:26:07 by arommers      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -g
 # CFLAGS += -g -fsanitize=thread
-NAME = philosophers
+# CFLAGS += -g -fsanitize=address
+NAME = philo
 
 INCLUDE = -I./include
 SRC =	./src/main.c ./src/init.c		\
 		./src/simulate.c ./utils.c		\
 		./src/routine.c ./src/print.c	\
-		./src/input.c
+		./src/input.c ./src/free.c
 
 OBJ_DIR = obj
 OBJ = $(addprefix $(OBJ_DIR)/, $(notdir $(SRC:.c=.o)))

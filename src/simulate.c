@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/09 10:36:28 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/09 18:34:19 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,8 @@ void	*observe(void *arg)
 		{
 			pthread_mutex_lock(philos[i].eating);
 			meal = philos[i].last_meal;
-			if ((get_time() - meal) >= (unsigned long)philos[i].data->time_to_die)
+			if ((get_time() - meal) >= (unsigned long)philos[i].data->time_to_die
+				&& philos[i].data->done != philos[i].data->nr_philos)
 			{
 				pthread_mutex_unlock(philos[i].eating);
 				print_msg(&philos[i], "has died", 2);
@@ -35,15 +36,17 @@ void	*observe(void *arg)
 				pthread_mutex_unlock(philos[i].data->print);
 				return ((void *) 0);
 			}
-			if (philos->data->done == philos->data->nr_philos)
-			{
-				pthread_mutex_unlock(philos[i].eating);
-				return ((void *) 0);
-			}
 			pthread_mutex_unlock(philos[i].eating);
 			i++;
 		}
-		// i = (i + 1) % philos[i].data->nr_philos;
+		pthread_mutex_lock(philos->data->print);
+		if (philos->data->done >= philos->data->nr_philos)
+		{
+			philos[i].data->status = 1;
+			pthread_mutex_unlock(philos->data->print);
+			return ((void *) 0);
+		}
+		pthread_mutex_unlock(philos->data->print);
 		exact_sleep(philos->data->time_to_die);
 	}
 	return ((void *) 0);
@@ -59,11 +62,10 @@ void	*run_sim(void *arg)
 	while (1)
 	{
 		if (dead_check(philo) == 1)
-			break ;
+			return ((void *) 0);
 		if (done_check(philo) == 1)
-			break ;
-		if (routine(philo) != 1)
-			break ;
+			return ((void *) 0);
+		routine(philo);
 	}
 	return ((void *) 0);
 }
@@ -78,23 +80,14 @@ int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 	while (++i < data->nr_philos)
 	{
 		if (pthread_create(&threads[i], NULL, &run_sim, &philos[i]) != 0)
-		{
-			//error_message
-			return (1);
-		}
+			return (print_error("Creating threads failed\n", philos));
 	}
 	if (run_monitor(philos, &monitor) != 0)
-	{
-		// free stuff
 		return (1);
-	}
 	while (--i >= 0)
 	{
 		if (pthread_join(threads[i], NULL) != 0)
-		{
-			//error message
-			return(1);
-		}
+			return (print_error("Joining threads failed\n", philos));
 	}
 	pthread_detach(monitor);
 	return (0);
@@ -103,10 +96,7 @@ int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 int	run_monitor(t_philo *philos, pthread_t *monitor)
 {
 	if (pthread_create(monitor, NULL, &observe, philos) != 0)
-	{
-		// free stuff
-		return (1);
-	}
+		return (print_error("Creating threads failed\n", philos));
 	return (0);
 }
 
@@ -116,16 +106,9 @@ int	simulate(t_data *data, t_philo *philos)
 
 	threads = malloc((data->nr_philos + 1) * sizeof(pthread_t));
 	if (!threads)
-	{
-		// error message
-		return (1);
-	}
+		return (print_error("Malloc failed\n", philos));
 	if (run_threads(threads, data, philos) != 0)
-	{
-		// free stuff
 		return (1);
-	}
 	free (threads);
-	// check_sim_status(data, philos);
 	return (0);
 }

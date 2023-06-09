@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/29 12:47:33 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/08 22:56:34 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/09 18:34:53 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ void	drop_forks(t_philo *philo)
 	print_msg(philo, "is thinking", 4);
 }
 
-int	routine(t_philo *philo)
+void	routine(t_philo *philo)
 {
 	take_forks(philo);
 	pthread_mutex_lock(philo->eating);
@@ -39,5 +39,4 @@ int	routine(t_philo *philo)
 	pthread_mutex_unlock(philo->eating);
 	exact_sleep(philo->data->time_to_eat);
 	drop_forks(philo);
-	return (1);
 }

@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:30:45 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/07 09:59:59 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/09 16:56:39 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,11 +42,9 @@ int	done_check(t_philo *philo)
 unsigned long	ft_atolong(char *str)
 {
 	int				i;
-	// int				sign;
 	unsigned long	val;
 
 	i = 0;
-	// sign = 1;
 	val = 0;
 	while (str[i] == '\t' || str[i] == '\f' || str[i] == ' '
 		|| str[i] == '\v' || str[i] == '\n' || str[i] == '\r')
@@ -82,8 +80,6 @@ void	exact_sleep(unsigned long time)
 		current = get_time();
 		if (current >= end)
 			break ;
-		// if (end - current < 500)
-		// 	usleep(end - current);
 		else
 			usleep(500);
 	}

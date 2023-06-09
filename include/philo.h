@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/08 22:36:40 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/09 18:34:44 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <unistd.h>    // for usleep and write
 # include <sys/time.h>  // for gettimeofday
 # include <pthread.h>   // for pthread & mutex
-# include <limits.h>	// for atolong
+# include <limits.h>	// for atolong and input check
 
 // typedef enum e_status {
 // 	ALIVE,
@@ -65,7 +65,7 @@ int				run_threads(pthread_t *threads, t_data *data, t_philo *philos);
 
 void			take_forks(t_philo *philo);
 void			drop_forks(t_philo *philo);
-int				routine(t_philo *philo);
+void			routine(t_philo *philo);
 
 //	Initialize functions
 
@@ -79,7 +79,7 @@ int				init(int argc, char **argv, t_data **data, t_philo **philos);
 int				ft_isdigit(char c);
 int				digit_check(int argc, char **argv);
 int				input_check(int argc, char **argv);
-int				nega_check (int argc, char **argv);
+int				size_check(int argc, char **argv);
 int				solo_philo(t_data *data, t_philo *philo);
 
 
@@ -87,9 +87,16 @@ int				solo_philo(t_data *data, t_philo *philo);
 
 unsigned long	get_time(void);
 unsigned long	ft_atolong(char *str);
+int				print_error(char *msg, t_philo *philo);
 int				dead_check(t_philo *philo);
 int				done_check(t_philo *philo);
 void			exact_sleep(unsigned long time);
 void			print_msg(t_philo *philo, char *msg, int i);
+
+// Clean functions
+
+void			ft_clean(t_philo *philo);
+void			clean_mutex(t_philo *philo);
+int				data_error(char *msg, t_data *data);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/06 08:38:03 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/09 14:25:22 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	init_forks(t_data *data)
 	i = 0;
 	data->forks = malloc(data->nr_philos * sizeof(pthread_mutex_t));
 	if (!data->forks)
-		return (1);
+		return (data_error("Malloc failed", data));
 	while (i < data->nr_philos)
 		pthread_mutex_init(&data->forks[i++], NULL);
 	return (0);
@@ -41,7 +41,7 @@ int	init_data(int argc, char **argv, t_data *data)
 		return (1);
 	data->print = malloc(sizeof(pthread_mutex_t));
 	if (!data->print)
-		return (1);
+		return (data_error("Malloc failed", data));
 	pthread_mutex_init(data->print, NULL);
 	return (0);
 }
@@ -53,7 +53,7 @@ int	init_philos(t_data *data, t_philo *philos)
 
 	eating = malloc(data->nr_philos * sizeof(pthread_mutex_t));
 	if (!eating)
-		return (1);
+		return (print_error("Malloc failed\n", philos));
 	i = 0;
 	while (i < data->nr_philos)
 	{
@@ -75,24 +75,15 @@ int	init(int argc, char **argv, t_data **data, t_philo **philos)
 	*data = malloc(sizeof(t_data));
 	if (!*data)
 	{
-		// error_msg("msg");
+		printf("Malloc failed");
 		return (1);
 	}
-	if (init_data(argc, argv, *data) != 0) // you allocate here!!
-	{
-		// free data struct
-	}
+	if (init_data(argc, argv, *data) != 0)
+		return (1);
 	*philos = malloc(sizeof(t_philo) * (*data)->nr_philos);
 	if (!*philos)
-	{
-		// free data struct;
-		// error_msg("msg");
-		return (1);
-	}
+		return (data_error("Malloc failed\n", *data));
 	if (init_philos(*data, *philos) != 0)
-	{
-		// free data struct;
 		return (1);
-	}
 	return (0);
 }
