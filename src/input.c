@@ -6,7 +6,7 @@
 /*   By: adri <adri@student.codam.nl>                 +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/08 17:41:19 by adri          #+#    #+#                 */
-/*   Updated: 2023/06/08 23:09:09 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/09 10:52:08 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,16 +53,23 @@ int digit_check(int argc, char **argv)
 
 int solo_philo(t_data *data, t_philo *philo)
 {
-	pthread_t thread;
-    
+	pthread_t   thread;
+	pthread_t   monitor;
+
     data->start = get_time();
     if (pthread_create(&thread, NULL, &run_sim, &philo[0]) != 0)
     {
         //error
         return (1);
     }
-    pthread_join(thread, NULL);
-    // pthread_detach(thread);
+	if (run_monitor(philo, &monitor) != 0)
+	{
+		// free stuff
+		return (1);
+	}
+    exact_sleep(data->time_to_die);
+    pthread_detach(monitor);
+    pthread_detach(thread);
     return (0);
 }
 

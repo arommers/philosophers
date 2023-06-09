@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/08 23:22:41 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/09 10:36:28 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ void	*observe(void *arg)
 			i++;
 		}
 		// i = (i + 1) % philos[i].data->nr_philos;
-		exact_sleep(50);
+		exact_sleep(philos->data->time_to_die);
 	}
 	return ((void *) 0);
 }
