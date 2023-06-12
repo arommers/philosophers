@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/09 14:25:22 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/12 13:49:38 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int	init_forks(t_data *data)
 		return (data_error("Malloc failed", data));
 	while (i < data->nr_philos)
 		pthread_mutex_init(&data->forks[i++], NULL);
-	return (0);
+	return (SUCCESS);
 }
 
 int	init_data(int argc, char **argv, t_data *data)
@@ -36,14 +36,14 @@ int	init_data(int argc, char **argv, t_data *data)
 	else
 		data->meal_nbr = -1;
 	data->done = 0;
-	data->status = 0;
-	if (init_forks(data) != 0)
-		return (1);
+	data->status = ALIVE;
+	if (init_forks(data) == FAIL)
+		return (FAIL);
 	data->print = malloc(sizeof(pthread_mutex_t));
 	if (!data->print)
 		return (data_error("Malloc failed", data));
 	pthread_mutex_init(data->print, NULL);
-	return (0);
+	return (SUCCESS);
 }
 
 int	init_philos(t_data *data, t_philo *philos)
@@ -67,7 +67,7 @@ int	init_philos(t_data *data, t_philo *philos)
 		philos[i].data = data;
 		i++;
 	}
-	return (0);
+	return (SUCCESS);
 }
 
 int	init(int argc, char **argv, t_data **data, t_philo **philos)
@@ -76,14 +76,14 @@ int	init(int argc, char **argv, t_data **data, t_philo **philos)
 	if (!*data)
 	{
 		printf("Malloc failed");
-		return (1);
+		return (FAIL);
 	}
-	if (init_data(argc, argv, *data) != 0)
-		return (1);
+	if (init_data(argc, argv, *data) == FAIL)
+		return (FAIL);
 	*philos = malloc(sizeof(t_philo) * (*data)->nr_philos);
 	if (!*philos)
 		return (data_error("Malloc failed\n", *data));
-	if (init_philos(*data, *philos) != 0)
-		return (1);
-	return (0);
+	if (init_philos(*data, *philos) == FAIL)
+		return (FAIL);
+	return (SUCCESS);
 }

@@ -6,7 +6,7 @@
 /*   By: adri <adri@student.codam.nl>                 +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/12 08:46:16 by adri          #+#    #+#                 */
-/*   Updated: 2023/06/12 08:48:33 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/12 14:01:47 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ void	*observe(void *arg)
 				pthread_mutex_unlock(philos[i].eating);
 				print_msg(&philos[i], "has died", 2);
 				pthread_mutex_lock(philos[i].data->print);
-				philos[i].data->status = 1;
+				philos[i].data->status = DEAD;
 				pthread_mutex_unlock(philos[i].data->print);
 				return ((void *) 0);
 			}
@@ -53,7 +53,7 @@ void	*observe(void *arg)
 
 int	run_monitor(t_philo *philos, pthread_t *monitor)
 {
-	if (pthread_create(monitor, NULL, &observe, philos) != 0)
+	if (pthread_create(monitor, NULL, &observe, philos) != SUCCESS)
 		return (print_error("Creating threads failed\n", philos));
-	return (0);
+	return (SUCCESS);
 }

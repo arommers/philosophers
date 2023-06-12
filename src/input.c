@@ -6,7 +6,7 @@
 /*   By: adri <adri@student.codam.nl>                 +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/08 17:41:19 by adri          #+#    #+#                 */
-/*   Updated: 2023/06/09 14:05:06 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/12 13:43:44 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 int ft_isdigit(char c)
 {
     if (c >= '0' && c <= '9')
-        return (1);
-    return (0);
+        return (TRUE);
+    return (FALSE);
 }
 
 int size_check(int argc, char **argv)
@@ -27,9 +27,9 @@ int size_check(int argc, char **argv)
     while (++i < argc)
     {
         if (ft_atolong(argv[i]) < 0 || ft_atolong(argv[i]) > INT_MAX)
-            return (1);
+            return (FALSE);
     }
-    return (0);
+    return (TRUE);
 }
 
 int digit_check(int argc, char **argv)
@@ -43,12 +43,12 @@ int digit_check(int argc, char **argv)
         j = 0;
         while (argv[i][j])
         {
-            if (ft_isdigit(argv[i][j]) != 1)
-                return (1);
+            if (ft_isdigit(argv[i][j]) != TRUE)
+                return (FALSE);
             j++;
         }
     }
-    return (0);
+    return (TRUE);
 }
 
 int solo_philo(t_data *data, t_philo *philo)
@@ -76,10 +76,10 @@ int solo_philo(t_data *data, t_philo *philo)
 int input_check(int argc, char **argv)
 {
     if (argc < 5 || argc > 6)
-        return (1);
-    if (size_check(argc, argv) != 0)
-        return (1);
-    if (digit_check(argc, argv) != 0)
-        return (1);
-    return (0);
+        return (FALSE);
+    if (size_check(argc, argv) != TRUE)
+        return (FALSE);
+    if (digit_check(argc, argv) != TRUE)
+        return (FALSE);
+    return (SUCCESS);
 }

@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/12 09:57:53 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/12 13:38:33 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,19 @@
 # include <sys/time.h>  // for gettimeofday
 # include <pthread.h>   // for pthread & mutex
 # include <limits.h>	// for atolong and input check
+
+// Defines for readability
+
+# define ALIVE 0
+# define DEAD 1
+
+# define SUCCESS 0
+# define FAIL 1
+
+# define TRUE 0
+# define FALSE 1
+
+// Structs
 
 typedef struct s_data {
 	unsigned long		start;
