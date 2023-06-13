@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/31 10:39:50 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/12 13:55:04 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/13 14:40:21 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,8 @@ void	print_msg(t_philo *philo, char *msg, int i)
 	unsigned long	time;
 
 	time = get_time() - philo->data->start;
-	pthread_mutex_lock(philo->data->print);
-	if (philo->data->status == 0 && philo->data->done != philo->data->nr_philos)
+	pthread_mutex_lock(philo->data->public);
+	if (philo->data->status == 0)
 	{
 		// if (i == 0)
 		// 	printf("%lu %d %s\n", time, philo->id, msg);
@@ -63,8 +63,8 @@ void	print_msg(t_philo *philo, char *msg, int i)
 			printf("\033[1;36m%lu %d %s\033[0m\n", time, philo->id, msg);
 		else
 			printf("\033[1;92m%lu %s\033[0m\n", time, msg);
-		pthread_mutex_unlock(philo->data->print);
+		pthread_mutex_unlock(philo->data->public);
 	}
 	else
-		pthread_mutex_unlock(philo->data->print);
+		pthread_mutex_unlock(philo->data->public);
 }

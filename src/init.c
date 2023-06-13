@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/12 13:49:38 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/13 14:33:46 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,20 +39,24 @@ int	init_data(int argc, char **argv, t_data *data)
 	data->status = ALIVE;
 	if (init_forks(data) == FAIL)
 		return (FAIL);
-	data->print = malloc(sizeof(pthread_mutex_t));
-	if (!data->print)
+	data->finished = malloc(sizeof(pthread_mutex_t));
+	if (!data->finished)
 		return (data_error("Malloc failed", data));
-	pthread_mutex_init(data->print, NULL);
+	data->public = malloc(sizeof(pthread_mutex_t));
+	if (!data->public)
+		return (data_error("Malloc failed", data));
+	pthread_mutex_init(data->finished, NULL);
+	pthread_mutex_init(data->public, NULL);
 	return (SUCCESS);
 }
 
 int	init_philos(t_data *data, t_philo *philos)
 {
 	int				i;
-	pthread_mutex_t	*eating;
+	pthread_mutex_t	*private;
 
-	eating = malloc(data->nr_philos * sizeof(pthread_mutex_t));
-	if (!eating)
+	private = malloc(data->nr_philos * sizeof(pthread_mutex_t));
+	if (!private)
 		return (print_error("Malloc failed\n", philos));
 	i = 0;
 	while (i < data->nr_philos)
@@ -62,8 +66,8 @@ int	init_philos(t_data *data, t_philo *philos)
 		philos[i].last_meal = get_time();
 		philos[i].l_fork = &data->forks[i];
 		philos[i].r_fork = &data->forks[(i + 1) % data->nr_philos];
-		pthread_mutex_init(&eating[i], NULL);
-		philos[i].eating = &eating[i];
+		pthread_mutex_init(&private[i], NULL);
+		philos[i].private = &private[i];
 		philos[i].data = data;
 		i++;
 	}

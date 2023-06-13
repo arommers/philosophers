@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:30:45 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/12 13:58:15 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/13 14:35:19 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,28 +14,28 @@
 
 int	dead_check(t_philo *philo)
 {
-	pthread_mutex_lock(philo->data->print);
+	pthread_mutex_lock(philo->data->public);
 	if (philo->data->status == DEAD)
 	{
-		pthread_mutex_unlock(philo->data->print);
+		pthread_mutex_unlock(philo->data->public);
 		return (TRUE);
 	}
 	else
-		pthread_mutex_unlock(philo->data->print);
+		pthread_mutex_unlock(philo->data->public);
 	return (FALSE);
 }
 
 int	done_check(t_philo *philo)
 {
-	pthread_mutex_lock(philo->data->print);
+	pthread_mutex_lock(philo->data->finished);
 	if (philo->meals_eaten == philo->data->meal_nbr)
 	{
 		philo->data->done++;
-		pthread_mutex_unlock(philo->data->print);
+		pthread_mutex_unlock(philo->data->finished);
 		return (TRUE);
 	}
 	else
-		pthread_mutex_unlock(philo->data->print);
+		pthread_mutex_unlock(philo->data->finished);
 	return (FALSE);
 }
 

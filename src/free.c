@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/09 12:13:04 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/09 15:20:25 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/13 14:34:34 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,10 @@ void	clean_mutex(t_philo *philo)
 	while (++i < philo->data->nr_philos)
 	{
 		pthread_mutex_destroy(&philo->data->forks[i]);
-		pthread_mutex_destroy(philo[i].eating);
+		pthread_mutex_destroy(philo[i].private);
 	}
-	pthread_mutex_destroy(philo->data->print);
+	pthread_mutex_destroy(philo->data->public);
+	pthread_mutex_destroy(philo->data->finished);
 }
 
 
@@ -33,10 +34,12 @@ void	ft_clean(t_philo *philo)
 		clean_mutex(philo);
 		if (philo->data->forks)
 			free(philo->data->forks);
-		if (philo->data->print)
-			free(philo->data->print);
-		if (philo->eating)
-			free(philo->eating);
+		if (philo->data->public)
+			free(philo->data->public);
+		if (philo->data->finished)
+			free(philo->data->finished);
+		if (philo->private)
+			free(philo->private);
 		free(philo->data);
 	}
 	free (philo);

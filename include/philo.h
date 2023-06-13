@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/12 13:38:33 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/13 14:33:29 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,8 @@ typedef struct s_data {
 	int					time_to_eat;
 	int					time_to_sleep;
 	pthread_mutex_t		*forks;
-	pthread_mutex_t		*print;
+	pthread_mutex_t		*finished;
+	pthread_mutex_t		*public;
 }	t_data;
 
 typedef struct s_philo {
@@ -52,7 +53,7 @@ typedef struct s_philo {
 	unsigned long		last_meal;
 	pthread_mutex_t		*l_fork;
 	pthread_mutex_t		*r_fork;
-	pthread_mutex_t		*eating;
+	pthread_mutex_t		*private;
 	t_data				*data;
 }	t_philo;
 
@@ -61,6 +62,7 @@ typedef struct s_philo {
 void			*observe(void *arg);
 void			*run_sim(void *arg);
 int				simulate(t_data *data, t_philo *philos);
+int				monitor_dead(t_philo *philo);
 int				run_monitor(t_philo *philos, pthread_t *monitor);
 int				run_threads(pthread_t *threads, t_data *data, t_philo *philos);
 
@@ -83,8 +85,7 @@ int				ft_isdigit(char c);
 int				size_check(int argc, char **argv);
 int				digit_check(int argc, char **argv);
 int				input_check(int argc, char **argv);
-int				solo_philo(t_data *data, t_philo *philo);
-
+void			solo_philo(t_data *data, t_philo *philo);
 
 //	Utility functions
 
