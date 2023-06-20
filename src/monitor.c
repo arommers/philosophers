@@ -6,11 +6,13 @@
 /*   By: adri <adri@student.codam.nl>                 +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/12 08:46:16 by adri          #+#    #+#                 */
-/*   Updated: 2023/06/13 14:35:02 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/20 21:25:55 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
+
+// Monitor checks if a philospher has died
 
 int	monitor_dead(t_philo *philo)
 {
@@ -32,6 +34,8 @@ int	monitor_dead(t_philo *philo)
 	return (FALSE);
 }
 
+// Checks if all philosphers are done eating
+
 int	monitor_done(t_philo *philos)
 {
 	int		finished;
@@ -45,6 +49,8 @@ int	monitor_done(t_philo *philos)
 		return (TRUE);
 	return (FALSE);
 }
+
+// Represents the behavior of a monitoring thread.
 
 void	*observe(void *arg)
 {
@@ -88,6 +94,8 @@ void	*observe(void *arg)
 	}
 	return ((void *) 0);
 }
+
+// Create the monitor thread and start the observe function.
 
 int	run_monitor(t_philo *philos, pthread_t *monitor)
 {

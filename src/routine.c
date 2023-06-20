@@ -6,11 +6,13 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/29 12:47:33 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/13 09:41:42 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/20 21:22:32 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
+
+// Pick up forks and start eating
 
 void	take_forks(t_philo *philo)
 {
@@ -21,6 +23,8 @@ void	take_forks(t_philo *philo)
 	print_msg(philo, "is eating", 0);
 }
 
+// Put down the forks, sleep and think
+
 void	drop_forks(t_philo *philo)
 {
 	pthread_mutex_unlock(philo->l_fork);
@@ -29,6 +33,9 @@ void	drop_forks(t_philo *philo)
 	exact_sleep(philo->data->time_to_sleep);
 	print_msg(philo, "is thinking", 4);
 }
+
+// Represents the sequence of actions performed by a philosopher
+// during their turn in the simulation
 
 void	routine(t_philo *philo)
 {

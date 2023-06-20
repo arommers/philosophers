@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 10:21:54 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/13 14:33:29 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/20 20:49:16 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ int				monitor_dead(t_philo *philo);
 int				run_monitor(t_philo *philos, pthread_t *monitor);
 int				run_threads(pthread_t *threads, t_data *data, t_philo *philos);
 
-//	routine
+//	Routine functions
 
 void			routine(t_philo *philo);
 void			take_forks(t_philo *philo);

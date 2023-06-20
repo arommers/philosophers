@@ -6,11 +6,13 @@
 /*   By: adri <adri@student.codam.nl>                 +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/08 17:41:19 by adri          #+#    #+#                 */
-/*   Updated: 2023/06/13 10:05:02 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/20 20:56:31 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
+
+// Checks if a character is a digit
 
 int ft_isdigit(char c)
 {
@@ -18,6 +20,8 @@ int ft_isdigit(char c)
         return (TRUE);
     return (FALSE);
 }
+
+// Verifies if each command line argument falls between 0 to INT_MAX
 
 int size_check(int argc, char **argv)
 {
@@ -31,6 +35,8 @@ int size_check(int argc, char **argv)
     }
     return (TRUE);
 }
+
+// Verifies if all the characters in command line arguments are digits
 
 int digit_check(int argc, char **argv)
 {
@@ -51,6 +57,8 @@ int digit_check(int argc, char **argv)
     return (TRUE);
 }
 
+// Run a simulation for a single philosopher
+
 void solo_philo(t_data *data, t_philo *philo)
 {
 	pthread_t   thread;
@@ -65,6 +73,8 @@ void solo_philo(t_data *data, t_philo *philo)
     pthread_detach(thread);
     ft_clean(philo);
 }
+
+// Validates the input arguments
 
 int input_check(int argc, char **argv)
 {

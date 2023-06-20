@@ -6,11 +6,13 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/13 14:33:46 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/20 21:13:10 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
+
+// Initializes the forks in the data structure.
 
 int	init_forks(t_data *data)
 {
@@ -24,6 +26,8 @@ int	init_forks(t_data *data)
 		pthread_mutex_init(&data->forks[i++], NULL);
 	return (SUCCESS);
 }
+
+// Initializes the data structure with values obtained from the command-line arguments.
 
 int	init_data(int argc, char **argv, t_data *data)
 {
@@ -50,6 +54,8 @@ int	init_data(int argc, char **argv, t_data *data)
 	return (SUCCESS);
 }
 
+// Initializes the philos array of t_philo structures.
+
 int	init_philos(t_data *data, t_philo *philos)
 {
 	int				i;
@@ -73,6 +79,8 @@ int	init_philos(t_data *data, t_philo *philos)
 	}
 	return (SUCCESS);
 }
+
+// Initializes the data and philos structures.
 
 int	init(int argc, char **argv, t_data **data, t_philo **philos)
 {

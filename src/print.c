@@ -6,11 +6,13 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/31 10:39:50 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/13 14:40:21 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/20 21:09:56 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
+
+// Print error message and free all initialized in data
 
 int	data_error(char *msg, t_data *data)
 {
@@ -24,12 +26,16 @@ int	data_error(char *msg, t_data *data)
 	return (FAIL);
 }
 
+// Print an error message and free all allocated memory
+
 int	print_error(char *msg, t_philo *philos)
 {
 	printf("%s\n", msg);
 	ft_clean(philos);
 	return (FAIL);
 }
+
+// Print a message according to the provided arguments
 
 void	print_msg(t_philo *philo, char *msg, int i)
 {

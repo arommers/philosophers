@@ -6,11 +6,13 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/09 12:13:04 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/13 14:34:34 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/20 21:09:41 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
+
+// Destroy mutexes
 
 void	clean_mutex(t_philo *philo)
 {
@@ -26,6 +28,7 @@ void	clean_mutex(t_philo *philo)
 	pthread_mutex_destroy(philo->data->finished);
 }
 
+// Destroy mutexes and free all allocated memory
 
 void	ft_clean(t_philo *philo)
 {

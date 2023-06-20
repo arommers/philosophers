@@ -6,11 +6,16 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/13 10:16:53 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/20 21:20:49 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
+
+// The entry point for the philosopher threads. 
+// It performs a continuous loop where it checks for
+// the philosopher's death, completion of meals,
+// and executes the routine of actions for the philosopher.
 
 void	*run_sim(void *arg)
 {
@@ -29,6 +34,9 @@ void	*run_sim(void *arg)
 	}
 	return ((void *) 0);
 }
+
+	// Creates multiple a thread for each philosopher, runs a monitoring thread,
+	// waits for all philosopher threads to finish, and then detaches the monitoring thread.
 
 int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 {
@@ -52,6 +60,9 @@ int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 	pthread_detach(monitor);
 	return (SUCCESS);
 }
+
+//  Simulates the dining philosophers problem
+//	by creating and running a thread for each individual philosopher.
 
 int	simulate(t_data *data, t_philo *philos)
 {

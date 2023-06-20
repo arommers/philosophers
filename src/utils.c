@@ -6,11 +6,13 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:30:45 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/13 14:35:19 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/20 21:05:39 by adri          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
+
+// Verifies whether one of the philosophers has died.
 
 int	dead_check(t_philo *philo)
 {
@@ -25,6 +27,9 @@ int	dead_check(t_philo *philo)
 	return (FALSE);
 }
 
+// Verifies if a specific philo is done eating
+// and adjusts the done variable if indeed true.
+
 int	done_check(t_philo *philo)
 {
 	pthread_mutex_lock(philo->data->finished);
@@ -38,6 +43,8 @@ int	done_check(t_philo *philo)
 		pthread_mutex_unlock(philo->data->finished);
 	return (FALSE);
 }
+
+// converts a string to an unsigned long integer.
 
 unsigned long	ft_atolong(char *str)
 {
@@ -57,6 +64,8 @@ unsigned long	ft_atolong(char *str)
 	return (val);
 }
 
+// Get time in milliseconds
+
 unsigned long	get_time(void)
 {
 	struct timeval	tv;
@@ -66,6 +75,9 @@ unsigned long	get_time(void)
 	time = (tv.tv_sec * 1000) + (tv.tv_usec / 1000);
 	return (time);
 }
+
+// A more precise sleep function 
+// by incorporating intervals with an additional delay within the loop.
 
 void	exact_sleep(unsigned long time)
 {
