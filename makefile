@@ -6,12 +6,12 @@
 #    By: arommers <arommers@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2023/05/25 11:09:04 by arommers      #+#    #+#                  #
-#    Updated: 2023/06/13 14:41:12 by adri          ########   odam.nl          #
+#    Updated: 2023/06/28 11:48:42 by arommers      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -g
+CFLAGS = -Wall -Wextra -Werror
 # CFLAGS += -g -fsanitize=thread
 # CFLAGS += -g -fsanitize=address
 NAME = philo

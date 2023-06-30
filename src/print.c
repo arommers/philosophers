@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/31 10:39:50 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/20 21:09:56 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/30 12:00:37 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,11 @@ int	data_error(char *msg, t_data *data)
 
 	i = -1;
 	printf("%s\n", msg);
-	while (++i < data->nr_philos)
-		pthread_mutex_destroy(&data->forks[i]);
+	if (data->forks)
+	{
+		while (++i < data->nr_philos)
+			pthread_mutex_destroy(&data->forks[i]);
+	}
 	free(data);
 	return (FAIL);
 }

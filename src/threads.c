@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/05 12:43:21 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/20 21:20:49 by adri          ########   odam.nl         */
+/*   Updated: 2023/06/28 10:50:20 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,7 @@ int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 		if (pthread_create(&threads[i], NULL, &run_sim, &philos[i]) != SUCCESS)
 			return (print_error("Creating threads failed\n", philos));
 	}
+
 	if (run_monitor(philos, &monitor) != SUCCESS)
 		return (FAIL);
 	while (--i >= 0)
@@ -57,7 +58,7 @@ int	run_threads(pthread_t *threads, t_data *data, t_philo *philos)
 		if (pthread_join(threads[i], NULL) != SUCCESS)
 			return (print_error("Joining threads failed\n", philos));
 	}
-	pthread_detach(monitor);
+	pthread_join(monitor, NULL);
 	return (SUCCESS);
 }
 
