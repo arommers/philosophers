@@ -6,17 +6,11 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:01:37 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/28 11:53:50 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/30 12:08:22 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
-
-void	check_leaks(void)
-{
-	system("leaks -q philo");
-}
-
 
 int	main(int argc, char **argv)
 {
@@ -25,7 +19,6 @@ int	main(int argc, char **argv)
 
 	data = NULL;
 	philos = NULL;
-	// atexit(check_leaks);
 	if (input_check(argc, argv) == FALSE)
 	{
 		printf("Invalid input\n");

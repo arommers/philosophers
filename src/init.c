@@ -6,7 +6,7 @@
 /*   By: arommers <arommers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/03 15:09:07 by arommers      #+#    #+#                 */
-/*   Updated: 2023/06/30 11:59:06 by arommers      ########   odam.nl         */
+/*   Updated: 2023/06/30 12:12:00 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,7 @@ int	init_forks(t_data *data)
 	int	i;
 
 	i = 0;
-	// data->forks = malloc(data->nr_philos * sizeof(pthread_mutex_t));
-	data->forks = NULL;
+	data->forks = malloc(data->nr_philos * sizeof(pthread_mutex_t));
 	if (!data->forks)
 		return (data_error("Malloc failed", data));
 	while (i < data->nr_philos)
