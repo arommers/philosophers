@@ -6,7 +6,7 @@
 /*   By: adri <adri@student.codam.nl>                 +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/08 17:41:19 by adri          #+#    #+#                 */
-/*   Updated: 2023/06/28 11:42:28 by arommers      ########   odam.nl         */
+/*   Updated: 2023/07/06 14:45:31 by arommers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,7 @@ int	input_check(int argc, char **argv)
 {
 	if (argc < 5 || argc > 6)
 		return (FALSE);
-	if (ft_atolong(argv[1]) > 200)
+	if (ft_atolong(argv[1]) > 200 || ft_atolong(argv[1]) < 1)
 		return (FALSE);
 	if (size_check(argc, argv) != TRUE)
 		return (FALSE);
