@@ -19,6 +19,10 @@ This project provides a multithreaded solution to the dining philosophers proble
 
 ---
 
+Below is an example of a succesful run of the program with the arguments `99 185 60 60`
+
+<img src="https://i.imgur.com/zBbc7Kz.gif" alt="Philos gif">
+
 ### Remarks
 
 ---
