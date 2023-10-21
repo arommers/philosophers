@@ -13,7 +13,8 @@ This project provides a multithreaded solution to the dining philosophers proble
 ### Key Concepts
 - Multithreading and concurrency
 - Mutex locks(mutual exclusion)
-- Deadlock avoidance
+- Dataraces
+- Deadlocks
 - Resource allocation (forks)
 
 ---
