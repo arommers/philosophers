@@ -19,6 +19,19 @@ This project provides a multithreaded solution to the dining philosophers proble
 
 ---
 
+## Usage
+To run Philosophers, follow these steps:
+
+- Clone this repository or download the source files by clicking the green code button in the upper right corner.  
+  Run git clone https://github.com/arommers/philosophers.git in your terminal to clone.
+- Compile the program by running the command `make`
+- Run the programg with the following arguments from left to right:
+  "nr. of philosophers", "time it takes to starve", "time it takes to eat", "time it takes to sleep" and an optional argument for "the minimum number of meals each philosopher should     eat".
+
+  For example:
+
+  ` ./philo 5 410 100 100` or ` ./philo 5 410 100 100 10`
+
 <img src="https://i.imgur.com/1PIjqvW.png" alt="Visual">
 
 Below is an example of a succesful run of the program with the arguments `99 185 60 60`
