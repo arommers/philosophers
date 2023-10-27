@@ -48,3 +48,6 @@ Below is an example of a succesful run of the program with the arguments `99 185
 ---
 
 ### Sources
+
+- [Subject file](https://cdn.intra.42.fr/pdf/pdf/68830/en.subject.pdf)
+- [Code Vault](https://www.youtube.com/watch?v=d9s_d28yJq0&list=PLfqABt5AS4FmuQf70psXrsMLEDQXNkLq2)
