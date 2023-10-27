@@ -19,7 +19,7 @@ This project provides a multithreaded solution to the dining philosophers proble
 
 ---
 
-## Usage
+### Usage
 To run Philosophers, follow these steps:
 
 - Clone this repository or download the source files by clicking the green code button in the upper right corner.  
