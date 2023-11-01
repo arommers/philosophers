@@ -44,7 +44,9 @@ Below is an example of a succesful run of the program with the arguments `99 185
 <img src="https://i.imgur.com/zBbc7Kz.gif" alt="Philos gif">
 
 ### Remarks
-
+- I should have aligned the creation of the threads.
+- i should have used more mutex locks; one for each shared data would synchronize the threads better.
+- more stuff that i could have done better.
 ---
 
 ### Sources
