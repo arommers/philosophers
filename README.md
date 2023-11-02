@@ -1,6 +1,6 @@
 <img src="https://i.imgur.com/HG66CCx.png?raw=true" alt="CODAM" style="max-width: 50%;">
 
-# ** README WORK IN PROGRESS **
+# ** README IS STILL A WORK IN PROGRESS **
 
 # Philosophers
 
