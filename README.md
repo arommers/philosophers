@@ -1,5 +1,7 @@
 <img src="https://i.imgur.com/HG66CCx.png?raw=true" alt="CODAM" style="max-width: 50%;">
 
+# ** README WORK IN PROGRESS **
+
 # Philosophers
 
 This project is a simulation of the classic dining philosophers problem. In this problem, a number of philosophers are seated at a dining table. Each philosopher thinks and eats, but there are a limited number of forks placed between them.  
