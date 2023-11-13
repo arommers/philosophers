@@ -53,12 +53,9 @@ Below is an example of a succesful run of the program with the arguments `99 185
   First, a mutex lock is introduced to encapsulate the thread creation loop, ensuring a sequential and synchronized thread creation process. This involves locking the mutex, creating threads, and unlocking the mutex.
 
   Second, the same mutex lock is also introduced to the functions that each thread will execute `run_sim`. This guarantees that no thread starts executing its associated function until all threads have been created. The flow involves locking the mutex, executing the associated function, and 
-  then     
-  unlocking the mutex. By implementing this approach, the risk of the first thread running multiple times before the last one is created or, worse, dying prematurely is mitigated, creating a more controlled and orderly multithreading environment.
+  then unlocking the mutex. By implementing this approach, the risk of the first thread running multiple times before the last one is created or, worse, dying prematurely is mitigated, creating a more controlled and orderly multithreading environment.
 - It would have been better for synchronization to use more mutex locks. One for each shared data value.
-
   
-- more stuff that i could have done better.
 ---
 
 ### Sources
