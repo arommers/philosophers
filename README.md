@@ -46,7 +46,9 @@ Below is an example of a succesful run of the program with the arguments `99 185
 <img src="https://i.imgur.com/zBbc7Kz.gif" alt="Philos gif">
 
 ### Remarks
-- I should have aligned the creation of the philosophers/threads. Currently the threads starts running their associated function `run_sim` at their inception.
+- I should have aligned the creation of the philosophers/threads.
+  
+  Currently the threads starts running their associated function `run_sim` at their inception.
   This theoretically means that the first thread could run their function multiple times before the last one is even created. Or worse even die and stop.
   To prevent this from happening the following two steps should have been implemented:
 
