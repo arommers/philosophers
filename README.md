@@ -46,14 +46,15 @@ Below is an example of a succesful run of the program with the arguments `99 185
 <img src="https://i.imgur.com/zBbc7Kz.gif" alt="Philos gif">
 
 ### Remarks
-- I should have aligned the creation of the philosophers/threads. Currently the threads starts running their associated function at their inception.
+- I should have aligned the creation of the philosophers/threads. Currently the threads starts running their associated function `run_sim` at their inception.
   This theoretically means that the first thread could run their function multiple times before the last one is even created. Or worse even die and stop.
   To prevent this from happening the following two steps should have been implemented:
 
   First, a mutex lock is introduced to encapsulate the thread creation loop, ensuring a sequential and synchronized thread creation process. This involves locking the mutex, creating threads, and unlocking the mutex.
 
-  Second, the same mutex lock is also introduced to the functions that each thread will execute. This guarantees that no thread starts executing its associated function until all threads have been created. The flow involves locking the mutex, executing the associated function, and then unlocking the mutex. By implementing this       
-  approach, the risk of the first thread running multiple times before the last one is created or, worse, dying prematurely is mitigated, creating a more controlled and orderly multithreading environment.
+  Second, the same mutex lock is also introduced to the functions that each thread will execute `run_sim`. This guarantees that no thread starts executing its associated function until all threads have been created. The flow involves locking the mutex, executing the associated function, and 
+  then     
+  unlocking the mutex. By implementing this approach, the risk of the first thread running multiple times before the last one is created or, worse, dying prematurely is mitigated, creating a more controlled and orderly multithreading environment.
 - I should have used more mutex locks; one for each shared data would synchronize the threads better.
 - more stuff that i could have done better.
 ---
