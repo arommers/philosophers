@@ -4,13 +4,13 @@
 
 # Philosophers
 
-This project is a simulation of the classic dining philosophers problem. In this problem, a number of philosophers are seated at a dining table. Each philosopher thinks and eats, but there are a limited number of forks placed between them.  
-A philosopher must acquire both forks on their sides to eat. The object is to prevent any of the philosophers to starver before they aquire two forks to eat.  
+This project is a simulation of the classic dining philosophers problem. In this problem, a number of philosophers are seated at a dining table. Each philosopher thinks, eats and sleeps, but there are a limited number of forks placed between them.  
+A philosopher must acquire both forks on their sides to eat. The object is to prevent any of the philosophers from starving before they are able to aquire two forks to eat.  
 
-Our particular brand of philosophers are very
+Our particular brand of philosophers happen to be very paradoxal. They are very smart and dumb at the same time. Able to ponder life's questions, but not able to eat with a singular fork is. This however, is unfortenately not their only shortcomming. These men and women have the metabolism teenage girls dream of. If they don't feed themselves within a set timespan, measured in miliseconds, they simply starve to death, due to their neighbors hogging the forks they so desperately need.
 
-The challenge is to implement a solution that avoids [deadlocks](https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/) and ensures proper synchronization in access to the forks.
-This project provides a multithreaded solution to the dining philosophers problem by levaraging mutex locks.
+The challenge is to implement a solution that avoids [deadlocks](https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/) and ensures proper synchronization in access to the forks, so that our thinkers don't die on us.
+This project offers a multithreaded solution to the dining philosophers problem by levaraging mutex locks.
 
 ### Key Concepts
 - Multithreading and concurrency
