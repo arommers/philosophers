@@ -12,6 +12,8 @@ Our particular brand of philosophers happen to be very paradoxal. They are very 
 The challenge is to implement a solution that avoids [deadlocks](https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/) and ensures proper synchronization in access to the forks, so that our thinkers don't die on us.
 This project offers a multithreaded solution to the dining philosophers problem by levaraging mutex locks.
 
+---
+
 ### Key Concepts
 - Multithreading and concurrency
 - Mutex locks(mutual exclusion)
@@ -38,6 +40,8 @@ To run Philosophers, follow these steps:
 
   ` ./philo 5 410 100 100` or ` ./philo 5 410 100 100 10`
 - Stop the simulation with CTRL-C/SIGINT
+
+<img src="https://i.imgur.com/5z3WCjy.png" alt="Visual">
 
 <img src="https://i.imgur.com/1PIjqvW.png" alt="Visual">
 
