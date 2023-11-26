@@ -45,7 +45,7 @@ To run Philosophers, follow these steps:
 
 ### The program
 
-<div style="text-align:center;">
+<div align=center>
   <img src="https://i.imgur.com/5z3WCjy.png" alt="Visual">
 </div>
 
