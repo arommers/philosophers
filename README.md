@@ -41,6 +41,11 @@ To run Philosophers, follow these steps:
   ` ./philo 5 410 100 100` or ` ./philo 5 410 100 100 10`
 - Stop the simulation with CTRL-C/SIGINT
 
+---
+
+### The program
+
+
 <img src="https://i.imgur.com/5z3WCjy.png" alt="Visual">
 
 <img src="https://i.imgur.com/1PIjqvW.png" alt="Visual">
