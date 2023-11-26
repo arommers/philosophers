@@ -45,9 +45,51 @@ To run Philosophers, follow these steps:
 
 ### The program
 
+Our Philosophers consists of roughly three main parts. The parsing, the creation of threads and the threads each running a life cycle of a philospher.
+
 <div align=center>
   <img src="https://i.imgur.com/5z3WCjy.png" alt="Visual">
 </div>
+
+1. **Initialization:**
+   - Parse command-line arguments to configure the simulation parameters.
+   - Check the validity of input arguments.
+   - Initialize data structures for philosophers (`t_philo`) and general simulation data (`t_data`).
+
+2. **Philosopher Threads Creation:**
+   - Create a thread for each philosopher using the `pthread_create` function.
+   - The entry point for each philosopher thread is the `run_sim` function.
+   - Philosopher threads execute a continuous loop in the `run_sim` function, performing routines and checking for death or completion conditions.
+
+3. **Simulation Execution:**
+   - If the number of philosophers is 1, run a special case (`solo_philo`) and exit successfully.
+   - If there are multiple philosophers, start the simulation using the `simulate` function.
+   - Inside `simulate`, create an array of threads (`pthread_t`) for the philosophers.
+   - Use the `run_threads` function to create philosopher threads and a monitoring thread (`monitor`).
+   - Wait for all philosopher threads to finish using `pthread_join`.
+   - Detach the monitoring thread using `pthread_detach`.
+
+4. **Philosopher Routine:**
+   - The core routine of each philosopher is defined in the `routine` function.
+   - Philosopher threads continuously loop through taking forks, eating, and dropping forks.
+   - The routine is periodically interrupted to check for death or completion conditions.
+
+5. **Monitoring Thread:**
+   - The monitoring thread is created using `pthread_create` and executes the `observe` function.
+   - `observe` periodically checks for philosopher deaths using the `monitor_dead` function.
+   - It also checks if all philosophers have completed their meals using the `monitor_done` function.
+   - The monitoring thread sleeps for a duration equal to the maximum time a philosopher can survive without eating.
+
+6. **Ending Conditions:**
+   - The program terminates when all philosopher threads have completed their meals or if any philosopher dies.
+   - Proper cleanup is performed using the `ft_clean` function, which destroys mutexes and frees allocated memory.
+
+7. **Output:**
+   - Informative messages are printed throughout the simulation, indicating when a philosopher starts eating, sleeping, thinking, or if they have passed away.
+   - The program also prints a final message when all philosophers have completed their meals.
+
+8. **Cleanup:**
+   - Mutexes are destroyed, and allocated memory is freed to ensure proper cleanup.
 
 ---
 
