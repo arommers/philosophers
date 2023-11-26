@@ -53,9 +53,12 @@ To run Philosophers, follow these steps:
 
 <img src="https://i.imgur.com/1PIjqvW.png" alt="Visual">
 
-Below is an example of a succesful run of the program with the arguments `99 185 60 60`
+Below is a visual example of a succesful run of the program with the arguments `99 185 60 60`
+<div align=center>
+  <img src="https://i.imgur.com/zBbc7Kz.gif" alt="Philos gif">
+</div>
 
-<img src="https://i.imgur.com/zBbc7Kz.gif" alt="Philos gif">
+---
 
 ### Remarks
 - I should have aligned the creation of the philosophers/threads.
