@@ -112,7 +112,7 @@ To run Philosophers, follow these steps:
 - I should have aligned the creation of the philosophers/threads.
   
   Currently the threads starts running their associated function `run_sim` at their inception.
-  This theoretically means that the first thread could run their function multiple times before the last one is even created. Or worse even die and stop.
+  This theoretically means that the first thread could run their function multiple times before the last one is even created. Or worse, a philo might die and return the thread ending the program.
   To prevent this from happening the following two steps should have been implemented:
 
   First, a mutex lock is introduced to encapsulate the thread creation loop, ensuring a sequential and synchronized thread creation process. This involves locking the mutex, creating threads, and unlocking the mutex.
