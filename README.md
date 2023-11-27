@@ -103,7 +103,7 @@ To run Philosophers, follow these steps:
 <div align=center>
   <img src="https://i.imgur.com/Gkp78KH.gif" alt="Philos gif">  
 
-  **Outpuf of a succesfully run of the program with the arguments `99 185 60 60`*
+  **Outpuf of a succesful run of the program with the arguments `99 185 60 60`*
 </div>
 
 ---
