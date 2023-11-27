@@ -14,9 +14,15 @@ This project offers a multithreaded solution to the dining philosophers problem 
 
 ---
 
+<div align=center>
+  <img src="https://i.imgur.com/5z3WCjy.png" alt="Visual">
+</div>
+
+---
+
 ### Key Concepts
-- Multithreading and concurrency
-- Mutex locks(mutual exclusion)
+- [Multithreading](https://www.geeksforgeeks.org/multithreading-in-c/) and concurrency
+- [Mutex locks](https://www.geeksforgeeks.org/mutex-lock-for-linux-thread-synchronization/)(mutual exclusion)
 - Dataraces
 - Deadlocks
 - Resource allocation (forks)
@@ -44,12 +50,6 @@ To run Philosophers, follow these steps:
 ---
 
 ### The program
-
-Our Philosophers consists of roughly three main parts. The parsing, the creation of threads and the threads each running a life cycle of a philospher.
-
-<div align=center>
-  <img src="https://i.imgur.com/5z3WCjy.png" alt="Visual">
-</div>
 
 1. **Initialization:**
    - Parse command-line arguments to configure the simulation parameters.
