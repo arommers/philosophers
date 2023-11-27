@@ -49,6 +49,15 @@ To run Philosophers, follow these steps:
 
 ---
 
+<div align=center>
+  <img src="https://i.imgur.com/k4LVQvG.png" alt="routine">  
+  
+  **A visual overview of the day in the life of our philos.*
+</div>
+
+
+---
+
 ### The program
 
 1. **Initialization:**
@@ -92,8 +101,6 @@ To run Philosophers, follow these steps:
    - Mutexes are destroyed, and allocated memory is freed to ensure proper cleanup.
 
 ---
-
-<img src="https://i.imgur.com/1PIjqvW.png" alt="Visual">
 
 Below is a visual example of a succesful run of the program with the arguments `99 185 60 60`
 <div align=center>
