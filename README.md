@@ -22,9 +22,9 @@ This project offers a multithreaded solution to the dining philosophers problem 
 
 ### Key Concepts
 - [Multithreading](https://www.geeksforgeeks.org/multithreading-in-c/) and concurrency
-- [Mutex locks](https://www.geeksforgeeks.org/mutex-lock-for-linux-thread-synchronization/)(mutual exclusion)
-- Dataraces
-- Deadlocks
+- [Mutex locks](https://www.geeksforgeeks.org/mutex-lock-for-linux-thread-synchronization/) (mutual exclusion)
+- [Dataraces](https://en.wikipedia.org/wiki/Race_condition#:~:text=A%20data%20race%20is%20a,data%20race%20has%20undefined%20behavior.)
+- [Deadlocks](https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/)
 - Resource allocation (forks)
 
 ---
