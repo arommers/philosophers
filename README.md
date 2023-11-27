@@ -100,9 +100,10 @@ To run Philosophers, follow these steps:
 
 ---
 
-Below is a visual example of a succesful run of the program with the arguments `99 185 60 60`
 <div align=center>
-  <img src="https://i.imgur.com/zBbc7Kz.gif" alt="Philos gif">
+  <img src="https://i.imgur.com/Gkp78KH.gif" alt="Philos gif">  
+
+  **Outpuf of a succesfully run of the program with the arguments `99 185 60 60`*
 </div>
 
 ---
